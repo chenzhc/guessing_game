@@ -1,0 +1,18 @@
+2025-10-17 10:48:13 INFO src\main.rs:6 - test
+2025-10-17 10:48:27 INFO src\main.rs:6 - test
+2025-10-17 10:48:58 INFO src\main.rs:6 - test
+2025-10-17 10:48:58 INFO src\main.rs:7 - Guess the number!
+2025-10-17 10:50:36 INFO src\main.rs:7 - test
+2025-10-17 10:50:36 INFO src\main.rs:8 - Guess the number!
+2025-10-17 10:50:36 INFO src\main.rs:9 - Please input your guess.
+2025-10-17 10:51:03 INFO src\main.rs:7 - test
+2025-10-17 10:51:03 INFO src\main.rs:8 - Guess the number!
+2025-10-17 10:51:03 INFO src\main.rs:9 - Please input your guess.
+2025-10-17 10:51:03 INFO src\main.rs:16 - You guessed: 
+2025-10-17 10:51:05 INFO src\main.rs:7 - test
+2025-10-17 10:51:05 INFO src\main.rs:8 - Guess the number!
+2025-10-17 10:51:05 INFO src\main.rs:9 - Please input your guess.
+2025-10-17 10:51:05 INFO src\main.rs:16 - You guessed: 
+2025-10-17 10:51:09 INFO src\main.rs:7 - Guess the number!
+2025-10-17 10:51:09 INFO src\main.rs:8 - Please input your guess.
+2025-10-17 10:51:09 INFO src\main.rs:15 - You guessed: 
