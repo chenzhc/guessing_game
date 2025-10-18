@@ -183,6 +183,7 @@ dependencies = [
  "dotenvy",
  "log",
  "log4rs",
+ "rand",
  "tokio",
 ]
 

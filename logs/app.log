@@ -16,3 +16,216 @@
 2025-10-17 10:51:09 INFO src\main.rs:7 - Guess the number!
 2025-10-17 10:51:09 INFO src\main.rs:8 - Please input your guess.
 2025-10-17 10:51:09 INFO src\main.rs:15 - You guessed: 
+2025-10-17 22:02:35 INFO src/main.rs:7 - Guess the number!
+2025-10-17 22:02:35 INFO src/main.rs:8 - Please input your guess.
+2025-10-17 22:02:38 INFO src/main.rs:15 - You guessed: 3
+
+2025-10-17 22:04:33 INFO src/main.rs:8 - Guess the number!
+2025-10-17 22:04:33 INFO src/main.rs:12 - The secret number is: 27
+2025-10-17 22:04:33 INFO src/main.rs:14 - Please input your guess.
+2025-10-17 22:09:07 INFO src/main.rs:8 - Guess the number!
+2025-10-17 22:09:07 INFO src/main.rs:12 - The secret number is: 41
+2025-10-17 22:09:07 INFO src/main.rs:14 - Please input your guess.
+2025-10-17 22:09:08 INFO src/main.rs:26 - You guessed: 2
+2025-10-17 22:09:08 INFO src/main.rs:29 - Too small
+2025-10-17 22:09:11 INFO src/main.rs:8 - Guess the number!
+2025-10-17 22:09:11 INFO src/main.rs:12 - The secret number is: 30
+2025-10-17 22:09:11 INFO src/main.rs:14 - Please input your guess.
+2025-10-17 22:09:12 INFO src/main.rs:26 - You guessed: 5
+2025-10-17 22:09:12 INFO src/main.rs:29 - Too small
+2025-10-17 22:14:03 INFO src/main.rs:8 - Guess the number!
+2025-10-17 22:14:03 INFO src/main.rs:12 - The secret number is: 67
+2025-10-17 22:14:03 INFO src/main.rs:14 - Please input your guess.
+2025-10-17 22:14:04 INFO src/main.rs:29 - You guessed: 32
+2025-10-17 22:14:04 INFO src/main.rs:32 - Too small
+2025-10-17 22:14:41 INFO src/main.rs:8 - Guess the number!
+2025-10-17 22:14:41 INFO src/main.rs:12 - The secret number is: 44
+2025-10-17 22:14:41 INFO src/main.rs:14 - Please input your guess.
+2025-10-17 22:14:42 INFO src/main.rs:29 - You guessed: 2
+2025-10-17 22:14:42 INFO src/main.rs:32 - Too small
+2025-10-17 22:15:25 INFO src/main.rs:8 - Guess the number!
+2025-10-17 22:15:25 INFO src/main.rs:12 - The secret number is: 32
+2025-10-17 22:15:25 INFO src/main.rs:14 - Please input your guess.
+2025-10-17 22:15:26 INFO src/main.rs:29 - You guessed: 4
+2025-10-17 22:15:26 INFO src/main.rs:32 - Too small
+2025-10-17 22:16:06 INFO src/main.rs:8 - Guess the number!
+2025-10-17 22:16:06 INFO src/main.rs:12 - The secret number is: 46
+2025-10-17 22:16:06 INFO src/main.rs:15 - Please input your guess.
+2025-10-17 22:16:07 INFO src/main.rs:26 - You guessed: 4
+2025-10-17 22:16:07 INFO src/main.rs:29 - Too small
+2025-10-17 22:16:07 INFO src/main.rs:15 - Please input your guess.
+2025-10-17 22:16:08 INFO src/main.rs:26 - You guessed: 5
+2025-10-17 22:16:08 INFO src/main.rs:29 - Too small
+2025-10-17 22:16:08 INFO src/main.rs:15 - Please input your guess.
+2025-10-17 22:16:09 INFO src/main.rs:26 - You guessed: 6
+2025-10-17 22:16:09 INFO src/main.rs:29 - Too small
+2025-10-17 22:16:09 INFO src/main.rs:15 - Please input your guess.
+2025-10-17 22:16:10 INFO src/main.rs:26 - You guessed: 7
+2025-10-17 22:16:10 INFO src/main.rs:29 - Too small
+2025-10-17 22:16:10 INFO src/main.rs:15 - Please input your guess.
+2025-10-17 22:16:12 INFO src/main.rs:26 - You guessed: 10
+2025-10-17 22:16:12 INFO src/main.rs:29 - Too small
+2025-10-17 22:16:12 INFO src/main.rs:15 - Please input your guess.
+2025-10-17 22:16:14 INFO src/main.rs:26 - You guessed: 20
+2025-10-17 22:16:14 INFO src/main.rs:29 - Too small
+2025-10-17 22:16:14 INFO src/main.rs:15 - Please input your guess.
+2025-10-17 22:16:15 INFO src/main.rs:26 - You guessed: 50
+2025-10-17 22:16:15 INFO src/main.rs:30 - Too big!
+2025-10-17 22:16:15 INFO src/main.rs:15 - Please input your guess.
+2025-10-17 22:16:18 INFO src/main.rs:26 - You guessed: 50
+2025-10-17 22:16:18 INFO src/main.rs:30 - Too big!
+2025-10-17 22:16:18 INFO src/main.rs:15 - Please input your guess.
+2025-10-17 22:16:19 INFO src/main.rs:26 - You guessed: 40
+2025-10-17 22:16:19 INFO src/main.rs:29 - Too small
+2025-10-17 22:16:19 INFO src/main.rs:15 - Please input your guess.
+2025-10-17 22:16:22 INFO src/main.rs:26 - You guessed: 46
+2025-10-17 22:16:22 INFO src/main.rs:32 - You win!
+2025-10-17 22:19:08 INFO tests/my_test.rs:9 - The value of x is: 5
+2025-10-17 22:20:40 INFO tests/my_test.rs:9 - The value of x is: 5
+2025-10-17 22:20:40 INFO tests/my_test.rs:11 - The value of x is: 6
+2025-10-17 22:24:19 INFO tests/my_test.rs:9 - The value of x is: 5
+2025-10-17 22:24:19 INFO tests/my_test.rs:11 - The value of x is: 6
+2025-10-17 22:24:19 INFO tests/my_test.rs:17 - The value of x in the inner scope is: 12
+2025-10-17 22:24:19 INFO tests/my_test.rs:19 - The value of x is: 6
+2025-10-18 12:00:57 INFO tests/my_test.rs:9 - The value of x is: 5
+2025-10-18 12:00:57 INFO tests/my_test.rs:11 - The value of x is: 6
+2025-10-18 12:00:57 INFO tests/my_test.rs:17 - The value of x in the inner scope is: 12
+2025-10-18 12:00:57 INFO tests/my_test.rs:19 - The value of x is: 6
+2025-10-18 12:44:51 INFO tests/my_test.rs:9 - The value of x is: 5
+2025-10-18 12:44:51 INFO tests/my_test.rs:11 - The value of x is: 6
+2025-10-18 12:44:51 INFO tests/my_test.rs:17 - The value of x in the inner scope is: 12
+2025-10-18 12:44:51 INFO tests/my_test.rs:19 - The value of x is: 6
+2025-10-18 12:44:51 INFO tests/my_test.rs:22 - 😻
+2025-10-18 12:55:03 INFO tests/my_test.rs:9 - The value of x is: 5
+2025-10-18 12:55:03 INFO tests/my_test.rs:11 - The value of x is: 6
+2025-10-18 12:55:03 INFO tests/my_test.rs:17 - The value of x in the inner scope is: 12
+2025-10-18 12:55:03 INFO tests/my_test.rs:19 - The value of x is: 6
+2025-10-18 12:55:03 INFO tests/my_test.rs:22 - 😻
+2025-10-18 12:55:03 INFO tests/my_test.rs:25 - [3, 3, 3, 3, 3]
+2025-10-18 15:45:20 INFO tests/my_test.rs:9 - The value of x is: 5
+2025-10-18 15:45:20 INFO tests/my_test.rs:11 - The value of x is: 6
+2025-10-18 15:45:20 INFO tests/my_test.rs:17 - The value of x in the inner scope is: 12
+2025-10-18 15:45:20 INFO tests/my_test.rs:19 - The value of x is: 6
+2025-10-18 15:45:20 INFO tests/my_test.rs:22 - 😻
+2025-10-18 15:45:20 INFO tests/my_test.rs:25 - [3, 3, 3, 3, 3]
+2025-10-18 15:45:20 INFO tests/my_test.rs:32 - The value of y is: 4
+2025-10-18 15:46:58 INFO tests/my_test.rs:9 - The value of x is: 5
+2025-10-18 15:46:58 INFO tests/my_test.rs:11 - The value of x is: 6
+2025-10-18 15:46:58 INFO tests/my_test.rs:17 - The value of x in the inner scope is: 12
+2025-10-18 15:46:58 INFO tests/my_test.rs:19 - The value of x is: 6
+2025-10-18 15:46:58 INFO tests/my_test.rs:22 - 😻
+2025-10-18 15:46:58 INFO tests/my_test.rs:25 - [3, 3, 3, 3, 3]
+2025-10-18 15:46:58 INFO tests/my_test.rs:32 - The value of y is: 4
+2025-10-18 15:46:58 INFO tests/my_test.rs:35 - The value of x is: 5
+2025-10-18 15:49:01 INFO tests/my_test.rs:9 - The value of x is: 5
+2025-10-18 15:49:01 INFO tests/my_test.rs:11 - The value of x is: 6
+2025-10-18 15:49:01 INFO tests/my_test.rs:17 - The value of x in the inner scope is: 12
+2025-10-18 15:49:01 INFO tests/my_test.rs:19 - The value of x is: 6
+2025-10-18 15:49:01 INFO tests/my_test.rs:22 - 😻
+2025-10-18 15:49:01 INFO tests/my_test.rs:25 - [3, 3, 3, 3, 3]
+2025-10-18 15:49:01 INFO tests/my_test.rs:32 - The value of y is: 4
+2025-10-18 15:49:01 INFO tests/my_test.rs:35 - The value of x is: 5
+2025-10-18 15:49:01 INFO tests/my_test.rs:38 - The value of x is: 6
+2025-10-18 15:50:51 INFO tests/my_test.rs:9 - The value of x is: 5
+2025-10-18 15:50:51 INFO tests/my_test.rs:11 - The value of x is: 6
+2025-10-18 15:50:51 INFO tests/my_test.rs:17 - The value of x in the inner scope is: 12
+2025-10-18 15:50:51 INFO tests/my_test.rs:19 - The value of x is: 6
+2025-10-18 15:50:51 INFO tests/my_test.rs:22 - 😻
+2025-10-18 15:50:51 INFO tests/my_test.rs:25 - [3, 3, 3, 3, 3]
+2025-10-18 15:50:51 INFO tests/my_test.rs:32 - The value of y is: 4
+2025-10-18 15:50:51 INFO tests/my_test.rs:35 - The value of x is: 5
+2025-10-18 15:50:51 INFO tests/my_test.rs:38 - The value of x is: 6
+2025-10-18 15:50:51 INFO tests/my_test.rs:43 - condition was true
+2025-10-18 15:52:19 INFO tests/my_test.rs:9 - The value of x is: 5
+2025-10-18 15:52:19 INFO tests/my_test.rs:11 - The value of x is: 6
+2025-10-18 15:52:19 INFO tests/my_test.rs:17 - The value of x in the inner scope is: 12
+2025-10-18 15:52:19 INFO tests/my_test.rs:19 - The value of x is: 6
+2025-10-18 15:52:19 INFO tests/my_test.rs:22 - 😻
+2025-10-18 15:52:19 INFO tests/my_test.rs:25 - [3, 3, 3, 3, 3]
+2025-10-18 15:52:19 INFO tests/my_test.rs:32 - The value of y is: 4
+2025-10-18 15:52:19 INFO tests/my_test.rs:35 - The value of x is: 5
+2025-10-18 15:52:19 INFO tests/my_test.rs:38 - The value of x is: 6
+2025-10-18 15:52:19 INFO tests/my_test.rs:43 - condition was true
+2025-10-18 15:52:19 INFO tests/my_test.rs:49 - number was something other than zero
+2025-10-18 16:01:03 INFO tests/my_test.rs:9 - The value of x is: 5
+2025-10-18 16:01:03 INFO tests/my_test.rs:11 - The value of x is: 6
+2025-10-18 16:01:03 INFO tests/my_test.rs:17 - The value of x in the inner scope is: 12
+2025-10-18 16:01:03 INFO tests/my_test.rs:19 - The value of x is: 6
+2025-10-18 16:01:03 INFO tests/my_test.rs:22 - 😻
+2025-10-18 16:01:03 INFO tests/my_test.rs:25 - [3, 3, 3, 3, 3]
+2025-10-18 16:01:03 INFO tests/my_test.rs:32 - The value of y is: 4
+2025-10-18 16:01:03 INFO tests/my_test.rs:35 - The value of x is: 5
+2025-10-18 16:01:03 INFO tests/my_test.rs:38 - The value of x is: 6
+2025-10-18 16:01:03 INFO tests/my_test.rs:43 - condition was true
+2025-10-18 16:01:03 INFO tests/my_test.rs:49 - number was something other than zero
+2025-10-18 16:01:03 INFO tests/my_test.rs:59 - The result is 20
+2025-10-18 16:05:28 INFO tests/my_test.rs:9 - The value of x is: 5
+2025-10-18 16:05:28 INFO tests/my_test.rs:11 - The value of x is: 6
+2025-10-18 16:05:28 INFO tests/my_test.rs:17 - The value of x in the inner scope is: 12
+2025-10-18 16:05:28 INFO tests/my_test.rs:19 - The value of x is: 6
+2025-10-18 16:05:28 INFO tests/my_test.rs:22 - 😻
+2025-10-18 16:05:28 INFO tests/my_test.rs:25 - [3, 3, 3, 3, 3]
+2025-10-18 16:05:28 INFO tests/my_test.rs:32 - The value of y is: 4
+2025-10-18 16:05:28 INFO tests/my_test.rs:35 - The value of x is: 5
+2025-10-18 16:05:28 INFO tests/my_test.rs:38 - The value of x is: 6
+2025-10-18 16:05:28 INFO tests/my_test.rs:43 - condition was true
+2025-10-18 16:05:28 INFO tests/my_test.rs:49 - number was something other than zero
+2025-10-18 16:05:28 INFO tests/my_test.rs:62 - The value is : 10
+2025-10-18 16:05:28 INFO tests/my_test.rs:62 - The value is : 20
+2025-10-18 16:05:28 INFO tests/my_test.rs:62 - The value is : 30
+2025-10-18 16:05:28 INFO tests/my_test.rs:62 - The value is : 40
+2025-10-18 16:05:28 INFO tests/my_test.rs:62 - The value is : 50
+2025-10-18 16:05:28 INFO tests/my_test.rs:64 - The result is 20
+2025-10-18 16:06:35 INFO tests/my_test.rs:9 - The value of x is: 5
+2025-10-18 16:06:35 INFO tests/my_test.rs:11 - The value of x is: 6
+2025-10-18 16:06:35 INFO tests/my_test.rs:17 - The value of x in the inner scope is: 12
+2025-10-18 16:06:35 INFO tests/my_test.rs:19 - The value of x is: 6
+2025-10-18 16:06:35 INFO tests/my_test.rs:22 - 😻
+2025-10-18 16:06:35 INFO tests/my_test.rs:25 - [3, 3, 3, 3, 3]
+2025-10-18 16:06:35 INFO tests/my_test.rs:32 - The value of y is: 4
+2025-10-18 16:06:35 INFO tests/my_test.rs:35 - The value of x is: 5
+2025-10-18 16:06:35 INFO tests/my_test.rs:38 - The value of x is: 6
+2025-10-18 16:06:35 INFO tests/my_test.rs:43 - condition was true
+2025-10-18 16:06:35 INFO tests/my_test.rs:49 - number was something other than zero
+2025-10-18 16:06:35 INFO tests/my_test.rs:62 - The value is : 10
+2025-10-18 16:06:35 INFO tests/my_test.rs:62 - The value is : 20
+2025-10-18 16:06:35 INFO tests/my_test.rs:62 - The value is : 30
+2025-10-18 16:06:35 INFO tests/my_test.rs:62 - The value is : 40
+2025-10-18 16:06:35 INFO tests/my_test.rs:62 - The value is : 50
+2025-10-18 16:06:35 INFO tests/my_test.rs:64 - The result is 20
+2025-10-18 16:06:35 INFO tests/my_test.rs:67 - 3
+2025-10-18 16:06:35 INFO tests/my_test.rs:67 - 2
+2025-10-18 16:06:35 INFO tests/my_test.rs:67 - 1
+2025-10-18 16:06:35 INFO tests/my_test.rs:69 - LIFTOFF!!!
+2025-10-18 16:39:27 INFO tests/my_test.rs:9 - The value of x is: 5
+2025-10-18 16:39:27 INFO tests/my_test.rs:11 - The value of x is: 6
+2025-10-18 16:39:27 INFO tests/my_test.rs:17 - The value of x in the inner scope is: 12
+2025-10-18 16:39:27 INFO tests/my_test.rs:19 - The value of x is: 6
+2025-10-18 16:39:27 INFO tests/my_test.rs:22 - 😻
+2025-10-18 16:39:27 INFO tests/my_test.rs:25 - [3, 3, 3, 3, 3]
+2025-10-18 16:39:27 INFO tests/my_test.rs:32 - The value of y is: 4
+2025-10-18 16:39:27 INFO tests/my_test.rs:35 - The value of x is: 5
+2025-10-18 16:39:27 INFO tests/my_test.rs:38 - The value of x is: 6
+2025-10-18 16:39:27 INFO tests/my_test.rs:43 - condition was true
+2025-10-18 16:39:27 INFO tests/my_test.rs:49 - number was something other than zero
+2025-10-18 16:39:27 INFO tests/my_test.rs:62 - The value is : 10
+2025-10-18 16:39:27 INFO tests/my_test.rs:62 - The value is : 20
+2025-10-18 16:39:27 INFO tests/my_test.rs:62 - The value is : 30
+2025-10-18 16:39:27 INFO tests/my_test.rs:62 - The value is : 40
+2025-10-18 16:39:27 INFO tests/my_test.rs:62 - The value is : 50
+2025-10-18 16:39:27 INFO tests/my_test.rs:64 - The result is 20
+2025-10-18 16:39:27 INFO tests/my_test.rs:67 - 3
+2025-10-18 16:39:27 INFO tests/my_test.rs:67 - 2
+2025-10-18 16:39:27 INFO tests/my_test.rs:67 - 1
+2025-10-18 16:39:27 INFO tests/my_test.rs:69 - LIFTOFF!!!
+2025-10-18 16:39:27 INFO tests/my_test.rs:72 - yours
+2025-10-18 16:40:54 INFO tests/my_test.rs:81 - hello
+2025-10-18 16:45:04 INFO tests/my_test.rs:81 - hello
+2025-10-18 16:45:04 INFO tests/my_test.rs:85 - The length of 'hello' is 5.
+2025-10-18 18:45:14 INFO tests/my_test.rs:81 - hello
+2025-10-18 18:45:14 INFO tests/my_test.rs:85 - The length of 'hello' is 5.
+2025-10-18 18:45:14 INFO tests/my_test.rs:89 - The length of 'hello' is 5
+2025-10-18 18:54:44 INFO tests/my_test.rs:81 - hello
+2025-10-18 18:54:44 INFO tests/my_test.rs:85 - The length of 'hello' is 5.
+2025-10-18 18:54:44 INFO tests/my_test.rs:89 - The length of 'hello' is 5
+2025-10-18 18:54:44 INFO tests/my_test.rs:93 - hello, world
