@@ -1,3 +1,12 @@
+#![cfg_attr(
+    debug_assertions,
+    allow(dead_code, unused_imports, unused_variables, unused_mut)
+)]
+#![allow(dead_code)]
+#![allow(unused_variables)]
+
+use std::path::Ancestors;
+
 use guessing_game::init;
 use log::info;
 
@@ -91,7 +100,220 @@ fn it_test02() {
     let mut s = String::from("hello");
     change(&mut s);
     info!("{}", s);
+
+    let mut s = String::from("hello");
+    let r1 = &s;
+    let r2 = &s;
+    info!("{} and {}", r1, r2);
+    let r3 = &mut s;
+    info!("{}", r3);
+
+    let s = String::from("hello world");
+    let world = first_word(&s);
     
+    info!("{}", world);
+
+
+}
+
+#[derive(Debug)]
+struct User {
+    active: bool,
+    username: String,
+    email: String,
+    sign_in_count: u64,
+}
+
+fn build_user(email: String, username: String) -> User {
+    User { active: true, username: username, email: email, sign_in_count: 1 }
+}
+
+#[test]
+fn it_test03() {
+    init();
+    let mut user1 = User {
+        email: String::from("someone@example.com"),
+        username: String::from("someusername123"),
+        active: true,
+        sign_in_count: 1,
+    };
+
+    user1.email = String::from("anotheremail@example.com");
+    
+    info!("{:?}", user1);
+
+    let user2 = build_user("someone@email.com".to_string(), "test01".to_string());
+    info!("{:?}", user2);
+
+    let user3 = User {
+        email: String::from("another@example.com"),
+        ..user2
+    };
+    info!("{:?}", user3);
+
+    let black = Color(0,0,0);
+    let origin = Point(0,0,0);
+    let subject = AlwaysEqual;
+
+    let width1 = 30;
+    let height1 = 50;
+    info!("The area of the rectangle is {} square pixels.", area(width1, height1));
+
+    let rect1 = Rectangle {
+        width: 30,
+        height: 50,
+    };
+    info!("The area of the rectangle is {} square pixels.", area2(&rect1));
+
+    let rect1 = Rectangle {
+        width: 30,
+        height: 50,
+    };
+    info!("rect1 is {:?}", rect1);
+    info!("{}", rect1.area());
+
+    if rect1.width() {
+        info!("The rectangle has a nonzero width; it is {}", rect1.width);
+    }
+
+    let rect1 = Rectangle {
+        width: 30,
+        height: 50,
+    };
+    let rect2 = Rectangle {
+        width: 10,
+        height: 40,
+    };
+    let rect3 = Rectangle {
+        width: 60,
+        height: 45,
+    };
+    info!("Can rect1 hold rect2? {}", rect1.can_hold(&rect2));
+    info!("Can rect1 hold rect3? {}", rect1.can_hold(&rect3));
+
+    let sq = Rectangle::square(3);
+    info!("{:?}", sq);
+
+}
+
+#[test]
+fn it_match_test01() {
+    init();
+    let rs = value_in_cents(Coin::Dime);
+    info!("{}", rs);
+
+    let five = Some(5);
+    let six = plus_one2(five);
+    info!("{}",six.unwrap());
+    let none = plus_one2(None);
+    info!("{:?}", none);
+
+    let dice_roll = 9;
+    match dice_roll {
+        3 => add_fancy_hat(),
+        7 => remove_fancy_hat(),
+        _ => reroll(),
+    }
+
+    let some_u8_value = Some(3u8);
+    if let Some(3) = some_u8_value {
+        info!("three")
+    }
+}
+
+fn add_fancy_hat() {
+    info!("add fancy hat");
+}
+
+fn remove_fancy_hat() {
+    info!("remove fancy hat");
+}
+
+fn reroll() {
+    info!("reroll");
+}
+
+fn value_in_cents(coin: Coin) -> u8 {
+    match coin {
+        Coin::Penny => {
+            info!("Lucky penny!");
+            1
+        },
+        Coin::Nickel => 5,
+        Coin::Dime => 10,
+        Coin::Quarter(state) => {
+            info!("State quarter from {:?}", state);
+            25
+        },
+    }
+}
+
+fn plus_one2(x: Option<i32>) -> Option<i32> {
+    match x {
+        None => None,
+        Some(i) => Some(i + 1),
+    }
+}
+
+#[derive(Debug)]
+enum UsState {
+    Alabama,
+    Alaska,
+}
+
+enum Coin {
+    Penny,
+    Nickel,
+    Dime,
+    Quarter(UsState),
+}
+
+#[derive(Debug)]
+struct Rectangle {
+    width: u32, 
+    height: u32,
+}
+
+impl Rectangle {
+    fn square(size: u32) -> Rectangle {
+        Rectangle { width: size, height: size }
+    }
+
+    fn area(&self) -> u32 {
+        self.width * self.height
+    }
+
+    fn width(&self) -> bool {
+        self.width > 0 
+    }
+
+    fn can_hold(&self, other: &Rectangle) -> bool {
+        self.width > other.width && self.height > other.height
+    }
+}
+
+fn area2(rectangle: &Rectangle) -> u32 {
+    rectangle.width * rectangle.height 
+}
+
+fn area(width: u32, height: u32) -> u32 {
+    width * height
+}
+
+struct AlwaysEqual;
+struct Color(i32, i32, i32);
+struct Point(i32, i32, i32);
+
+fn first_word(s: &String) -> &str {
+    let bytes = s.as_bytes();
+
+    for (i, &item) in bytes.iter().enumerate() {
+        if item == b' ' {
+            return &s[0..i];
+        }
+    }
+
+    &s[..]
 }
 
 fn change(some_thing: &mut String) {

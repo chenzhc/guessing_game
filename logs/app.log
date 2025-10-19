@@ -229,3 +229,118 @@
 2025-10-18 18:54:44 INFO tests/my_test.rs:85 - The length of 'hello' is 5.
 2025-10-18 18:54:44 INFO tests/my_test.rs:89 - The length of 'hello' is 5
 2025-10-18 18:54:44 INFO tests/my_test.rs:93 - hello, world
+2025-10-18 20:10:56 INFO tests/my_test.rs:81 - hello
+2025-10-18 20:10:56 INFO tests/my_test.rs:85 - The length of 'hello' is 5.
+2025-10-18 20:10:56 INFO tests/my_test.rs:89 - The length of 'hello' is 5
+2025-10-18 20:10:56 INFO tests/my_test.rs:93 - hello, world
+2025-10-18 20:10:56 INFO tests/my_test.rs:98 - hello and hello
+2025-10-18 20:10:56 INFO tests/my_test.rs:100 - hello
+2025-10-18 20:52:43 INFO tests/my_test.rs:81 - hello
+2025-10-18 20:52:43 INFO tests/my_test.rs:85 - The length of 'hello' is 5.
+2025-10-18 20:52:43 INFO tests/my_test.rs:89 - The length of 'hello' is 5
+2025-10-18 20:52:43 INFO tests/my_test.rs:93 - hello, world
+2025-10-18 20:52:43 INFO tests/my_test.rs:98 - hello and hello
+2025-10-18 20:52:43 INFO tests/my_test.rs:100 - hello
+2025-10-18 20:52:43 INFO tests/my_test.rs:105 - 5
+2025-10-18 20:53:17 INFO tests/my_test.rs:81 - hello
+2025-10-18 20:53:17 INFO tests/my_test.rs:85 - The length of 'hello' is 5.
+2025-10-18 20:53:17 INFO tests/my_test.rs:89 - The length of 'hello' is 5
+2025-10-18 20:53:17 INFO tests/my_test.rs:93 - hello, world
+2025-10-18 20:53:17 INFO tests/my_test.rs:98 - hello and hello
+2025-10-18 20:53:17 INFO tests/my_test.rs:100 - hello
+2025-10-18 20:53:17 INFO tests/my_test.rs:105 - 5
+2025-10-18 20:53:17 INFO tests/my_test.rs:106 - hello
+2025-10-18 20:53:40 INFO tests/my_test.rs:81 - hello
+2025-10-18 20:53:40 INFO tests/my_test.rs:85 - The length of 'hello' is 5.
+2025-10-18 20:53:40 INFO tests/my_test.rs:89 - The length of 'hello' is 5
+2025-10-18 20:53:40 INFO tests/my_test.rs:93 - hello, world
+2025-10-18 20:53:40 INFO tests/my_test.rs:98 - hello and hello
+2025-10-18 20:53:40 INFO tests/my_test.rs:100 - hello
+2025-10-18 20:53:40 INFO tests/my_test.rs:105 - 5
+2025-10-18 20:53:40 INFO tests/my_test.rs:106 - hello
+2025-10-18 20:58:09 INFO tests/my_test.rs:81 - hello
+2025-10-18 20:58:09 INFO tests/my_test.rs:85 - The length of 'hello' is 5.
+2025-10-18 20:58:09 INFO tests/my_test.rs:89 - The length of 'hello' is 5
+2025-10-18 20:58:09 INFO tests/my_test.rs:93 - hello, world
+2025-10-18 20:58:09 INFO tests/my_test.rs:98 - hello and hello
+2025-10-18 20:58:09 INFO tests/my_test.rs:100 - hello
+2025-10-18 20:58:09 INFO tests/my_test.rs:105 - hello
+2025-10-19 08:55:04 INFO tests/my_test.rs:128 - User { active: true, username: "someusername123", email: "someone@example.com", sign_in_count: 1 }
+2025-10-19 08:55:40 INFO tests/my_test.rs:135 - User { active: true, username: "someusername123", email: "someone@example.com", sign_in_count: 1 }
+2025-10-19 08:56:49 INFO tests/my_test.rs:137 - User { active: true, username: "someusername123", email: "anotheremail@example.com", sign_in_count: 1 }
+2025-10-19 08:58:51 INFO tests/my_test.rs:141 - User { active: true, username: "someusername123", email: "anotheremail@example.com", sign_in_count: 1 }
+2025-10-19 08:58:51 INFO tests/my_test.rs:144 - User { active: true, username: "test01", email: "someone@email.com", sign_in_count: 1 }
+2025-10-19 09:10:29 INFO tests/my_test.rs:141 - User { active: true, username: "someusername123", email: "anotheremail@example.com", sign_in_count: 1 }
+2025-10-19 09:10:29 INFO tests/my_test.rs:144 - User { active: true, username: "test01", email: "someone@email.com", sign_in_count: 1 }
+2025-10-19 09:10:29 INFO tests/my_test.rs:150 - User { active: true, username: "test01", email: "another@example.com", sign_in_count: 1 }
+2025-10-19 09:29:49 INFO tests/my_test.rs:143 - User { active: true, username: "someusername123", email: "anotheremail@example.com", sign_in_count: 1 }
+2025-10-19 09:29:49 INFO tests/my_test.rs:146 - User { active: true, username: "test01", email: "someone@email.com", sign_in_count: 1 }
+2025-10-19 09:29:49 INFO tests/my_test.rs:152 - User { active: true, username: "test01", email: "another@example.com", sign_in_count: 1 }
+2025-10-19 09:29:49 INFO tests/my_test.rs:160 - The area of the rectangle is 1500 square pixels.
+2025-10-19 09:33:51 INFO tests/my_test.rs:143 - User { active: true, username: "someusername123", email: "anotheremail@example.com", sign_in_count: 1 }
+2025-10-19 09:33:51 INFO tests/my_test.rs:146 - User { active: true, username: "test01", email: "someone@email.com", sign_in_count: 1 }
+2025-10-19 09:33:51 INFO tests/my_test.rs:152 - User { active: true, username: "test01", email: "another@example.com", sign_in_count: 1 }
+2025-10-19 09:33:51 INFO tests/my_test.rs:160 - The area of the rectangle is 1500 square pixels.
+2025-10-19 09:33:51 INFO tests/my_test.rs:166 - The area of the rectangle is 1500 square pixels.
+2025-10-19 09:35:55 INFO tests/my_test.rs:143 - User { active: true, username: "someusername123", email: "anotheremail@example.com", sign_in_count: 1 }
+2025-10-19 09:35:55 INFO tests/my_test.rs:146 - User { active: true, username: "test01", email: "someone@email.com", sign_in_count: 1 }
+2025-10-19 09:35:55 INFO tests/my_test.rs:152 - User { active: true, username: "test01", email: "another@example.com", sign_in_count: 1 }
+2025-10-19 09:35:55 INFO tests/my_test.rs:160 - The area of the rectangle is 1500 square pixels.
+2025-10-19 09:35:55 INFO tests/my_test.rs:166 - The area of the rectangle is 1500 square pixels.
+2025-10-19 09:35:55 INFO tests/my_test.rs:172 - rect1 is Rectangle { width: 30, height: 50 }
+2025-10-19 09:48:43 INFO tests/my_test.rs:143 - User { active: true, username: "someusername123", email: "anotheremail@example.com", sign_in_count: 1 }
+2025-10-19 09:48:43 INFO tests/my_test.rs:146 - User { active: true, username: "test01", email: "someone@email.com", sign_in_count: 1 }
+2025-10-19 09:48:43 INFO tests/my_test.rs:152 - User { active: true, username: "test01", email: "another@example.com", sign_in_count: 1 }
+2025-10-19 09:48:43 INFO tests/my_test.rs:160 - The area of the rectangle is 1500 square pixels.
+2025-10-19 09:48:43 INFO tests/my_test.rs:166 - The area of the rectangle is 1500 square pixels.
+2025-10-19 09:48:43 INFO tests/my_test.rs:172 - rect1 is Rectangle { width: 30, height: 50 }
+2025-10-19 09:48:43 INFO tests/my_test.rs:173 - 1500
+2025-10-19 09:52:03 INFO tests/my_test.rs:143 - User { active: true, username: "someusername123", email: "anotheremail@example.com", sign_in_count: 1 }
+2025-10-19 09:52:03 INFO tests/my_test.rs:146 - User { active: true, username: "test01", email: "someone@email.com", sign_in_count: 1 }
+2025-10-19 09:52:03 INFO tests/my_test.rs:152 - User { active: true, username: "test01", email: "another@example.com", sign_in_count: 1 }
+2025-10-19 09:52:03 INFO tests/my_test.rs:160 - The area of the rectangle is 1500 square pixels.
+2025-10-19 09:52:03 INFO tests/my_test.rs:166 - The area of the rectangle is 1500 square pixels.
+2025-10-19 09:52:03 INFO tests/my_test.rs:172 - rect1 is Rectangle { width: 30, height: 50 }
+2025-10-19 09:52:03 INFO tests/my_test.rs:173 - 1500
+2025-10-19 09:52:03 INFO tests/my_test.rs:176 - The rectangle has a nonzero width; it is 30
+2025-10-19 09:56:30 INFO tests/my_test.rs:143 - User { active: true, username: "someusername123", email: "anotheremail@example.com", sign_in_count: 1 }
+2025-10-19 09:56:30 INFO tests/my_test.rs:146 - User { active: true, username: "test01", email: "someone@email.com", sign_in_count: 1 }
+2025-10-19 09:56:30 INFO tests/my_test.rs:152 - User { active: true, username: "test01", email: "another@example.com", sign_in_count: 1 }
+2025-10-19 09:56:30 INFO tests/my_test.rs:160 - The area of the rectangle is 1500 square pixels.
+2025-10-19 09:56:30 INFO tests/my_test.rs:166 - The area of the rectangle is 1500 square pixels.
+2025-10-19 09:56:30 INFO tests/my_test.rs:172 - rect1 is Rectangle { width: 30, height: 50 }
+2025-10-19 09:56:30 INFO tests/my_test.rs:173 - 1500
+2025-10-19 09:56:30 INFO tests/my_test.rs:176 - The rectangle has a nonzero width; it is 30
+2025-10-19 09:56:30 INFO tests/my_test.rs:191 - Can rect1 hold rect2? true
+2025-10-19 09:56:30 INFO tests/my_test.rs:192 - Can rect1 hold rect3? false
+2025-10-19 11:41:10 INFO tests/my_test.rs:143 - User { active: true, username: "someusername123", email: "anotheremail@example.com", sign_in_count: 1 }
+2025-10-19 11:41:10 INFO tests/my_test.rs:146 - User { active: true, username: "test01", email: "someone@email.com", sign_in_count: 1 }
+2025-10-19 11:41:10 INFO tests/my_test.rs:152 - User { active: true, username: "test01", email: "another@example.com", sign_in_count: 1 }
+2025-10-19 11:41:10 INFO tests/my_test.rs:160 - The area of the rectangle is 1500 square pixels.
+2025-10-19 11:41:10 INFO tests/my_test.rs:166 - The area of the rectangle is 1500 square pixels.
+2025-10-19 11:41:10 INFO tests/my_test.rs:172 - rect1 is Rectangle { width: 30, height: 50 }
+2025-10-19 11:41:10 INFO tests/my_test.rs:173 - 1500
+2025-10-19 11:41:10 INFO tests/my_test.rs:176 - The rectangle has a nonzero width; it is 30
+2025-10-19 11:41:10 INFO tests/my_test.rs:191 - Can rect1 hold rect2? true
+2025-10-19 11:41:10 INFO tests/my_test.rs:192 - Can rect1 hold rect3? false
+2025-10-19 11:41:10 INFO tests/my_test.rs:195 - Rectangle { width: 3, height: 3 }
+2025-10-19 15:38:09 INFO tests/my_test.rs:203 - 10
+2025-10-19 15:43:48 INFO tests/my_test.rs:203 - 10
+2025-10-19 15:45:57 INFO tests/my_test.rs:203 - 10
+2025-10-19 15:49:09 INFO tests/my_test.rs:208 - 10
+2025-10-19 15:49:24 INFO tests/my_test.rs:203 - 10
+2025-10-19 15:49:24 INFO tests/my_test.rs:207 - 6
+2025-10-19 15:49:45 INFO tests/my_test.rs:203 - 10
+2025-10-19 15:49:45 INFO tests/my_test.rs:207 - 6
+2025-10-19 15:49:56 INFO tests/my_test.rs:203 - 10
+2025-10-19 15:49:56 INFO tests/my_test.rs:207 - 6
+2025-10-19 15:49:56 INFO tests/my_test.rs:209 - None
+2025-10-19 16:08:05 INFO tests/my_test.rs:203 - 10
+2025-10-19 16:08:05 INFO tests/my_test.rs:207 - 6
+2025-10-19 16:08:05 INFO tests/my_test.rs:209 - None
+2025-10-19 16:08:05 INFO tests/my_test.rs:228 - reroll
+2025-10-19 16:13:49 INFO tests/my_test.rs:203 - 10
+2025-10-19 16:13:49 INFO tests/my_test.rs:207 - 6
+2025-10-19 16:13:49 INFO tests/my_test.rs:209 - None
+2025-10-19 16:13:49 INFO tests/my_test.rs:233 - reroll
+2025-10-19 16:13:49 INFO tests/my_test.rs:220 - three
