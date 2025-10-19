@@ -344,3 +344,322 @@
 2025-10-19 16:13:49 INFO tests/my_test.rs:209 - None
 2025-10-19 16:13:49 INFO tests/my_test.rs:233 - reroll
 2025-10-19 16:13:49 INFO tests/my_test.rs:220 - three
+2025-10-19 16:39:07 INFO tests/my_test.rs:228 - [1, 2, 3]
+2025-10-19 16:39:43 INFO tests/my_test.rs:228 - [1, 2, 3]
+2025-10-19 16:39:43 INFO tests/my_test.rs:235 - [5, 6, 7, 8]
+2025-10-19 16:41:17 INFO tests/my_test.rs:228 - [1, 2, 3]
+2025-10-19 16:41:17 INFO tests/my_test.rs:235 - [5, 6, 7, 8]
+2025-10-19 16:41:17 INFO tests/my_test.rs:239 - The third element is 3
+2025-10-19 16:41:56 INFO tests/my_test.rs:228 - [1, 2, 3]
+2025-10-19 16:41:56 INFO tests/my_test.rs:235 - [5, 6, 7, 8]
+2025-10-19 16:41:56 INFO tests/my_test.rs:239 - The third element is 3
+2025-10-19 16:41:56 INFO tests/my_test.rs:242 - The third element is 3
+2025-10-19 16:46:04 INFO tests/my_test.rs:228 - [1, 2, 3]
+2025-10-19 16:46:04 INFO tests/my_test.rs:235 - [5, 6, 7, 8]
+2025-10-19 16:46:04 INFO tests/my_test.rs:239 - The third element is 3
+2025-10-19 16:46:04 INFO tests/my_test.rs:242 - The third element is 3
+2025-10-19 16:46:04 INFO tests/my_test.rs:248 - 100
+2025-10-19 16:46:04 INFO tests/my_test.rs:248 - 32
+2025-10-19 16:46:04 INFO tests/my_test.rs:248 - 57
+2025-10-19 16:47:08 INFO tests/my_test.rs:228 - [1, 2, 3]
+2025-10-19 16:47:08 INFO tests/my_test.rs:235 - [5, 6, 7, 8]
+2025-10-19 16:47:08 INFO tests/my_test.rs:239 - The third element is 3
+2025-10-19 16:47:08 INFO tests/my_test.rs:242 - The third element is 3
+2025-10-19 16:47:08 INFO tests/my_test.rs:248 - 100
+2025-10-19 16:47:08 INFO tests/my_test.rs:248 - 32
+2025-10-19 16:47:08 INFO tests/my_test.rs:248 - 57
+2025-10-19 16:47:08 INFO tests/my_test.rs:255 - [150, 82, 107]
+2025-10-19 18:28:37 INFO tests/my_test.rs:228 - [1, 2, 3]
+2025-10-19 18:28:37 INFO tests/my_test.rs:235 - [5, 6, 7, 8]
+2025-10-19 18:28:37 INFO tests/my_test.rs:239 - The third element is 3
+2025-10-19 18:28:37 INFO tests/my_test.rs:242 - The third element is 3
+2025-10-19 18:28:37 INFO tests/my_test.rs:248 - 100
+2025-10-19 18:28:37 INFO tests/my_test.rs:248 - 32
+2025-10-19 18:28:37 INFO tests/my_test.rs:248 - 57
+2025-10-19 18:28:37 INFO tests/my_test.rs:255 - [150, 82, 107]
+2025-10-19 18:28:37 INFO tests/my_test.rs:257 - こんにちは
+2025-10-19 18:32:31 INFO tests/my_test.rs:228 - [1, 2, 3]
+2025-10-19 18:32:31 INFO tests/my_test.rs:235 - [5, 6, 7, 8]
+2025-10-19 18:32:31 INFO tests/my_test.rs:239 - The third element is 3
+2025-10-19 18:32:31 INFO tests/my_test.rs:242 - The third element is 3
+2025-10-19 18:32:31 INFO tests/my_test.rs:248 - 100
+2025-10-19 18:32:31 INFO tests/my_test.rs:248 - 32
+2025-10-19 18:32:31 INFO tests/my_test.rs:248 - 57
+2025-10-19 18:32:31 INFO tests/my_test.rs:255 - [150, 82, 107]
+2025-10-19 18:32:31 INFO tests/my_test.rs:257 - こんにちは
+2025-10-19 18:32:31 INFO tests/my_test.rs:261 - hellobar
+2025-10-19 18:33:37 INFO tests/my_test.rs:228 - [1, 2, 3]
+2025-10-19 18:33:37 INFO tests/my_test.rs:235 - [5, 6, 7, 8]
+2025-10-19 18:33:37 INFO tests/my_test.rs:239 - The third element is 3
+2025-10-19 18:33:37 INFO tests/my_test.rs:242 - The third element is 3
+2025-10-19 18:33:37 INFO tests/my_test.rs:248 - 100
+2025-10-19 18:33:37 INFO tests/my_test.rs:248 - 32
+2025-10-19 18:33:37 INFO tests/my_test.rs:248 - 57
+2025-10-19 18:33:37 INFO tests/my_test.rs:255 - [150, 82, 107]
+2025-10-19 18:33:37 INFO tests/my_test.rs:257 - こんにちは
+2025-10-19 18:33:37 INFO tests/my_test.rs:261 - hellobar
+2025-10-19 18:33:37 INFO tests/my_test.rs:266 - s2 is bar
+2025-10-19 18:33:51 INFO tests/my_test.rs:228 - [1, 2, 3]
+2025-10-19 18:33:51 INFO tests/my_test.rs:235 - [5, 6, 7, 8]
+2025-10-19 18:33:51 INFO tests/my_test.rs:239 - The third element is 3
+2025-10-19 18:33:51 INFO tests/my_test.rs:242 - The third element is 3
+2025-10-19 18:33:51 INFO tests/my_test.rs:248 - 100
+2025-10-19 18:33:51 INFO tests/my_test.rs:248 - 32
+2025-10-19 18:33:51 INFO tests/my_test.rs:248 - 57
+2025-10-19 18:33:51 INFO tests/my_test.rs:255 - [150, 82, 107]
+2025-10-19 18:33:51 INFO tests/my_test.rs:257 - こんにちは
+2025-10-19 18:33:51 INFO tests/my_test.rs:261 - hellobar
+2025-10-19 18:33:51 INFO tests/my_test.rs:266 - s2 is bar
+2025-10-19 18:33:51 INFO tests/my_test.rs:267 - s1 is foobar
+2025-10-19 18:34:39 INFO tests/my_test.rs:228 - [1, 2, 3]
+2025-10-19 18:34:39 INFO tests/my_test.rs:235 - [5, 6, 7, 8]
+2025-10-19 18:34:39 INFO tests/my_test.rs:239 - The third element is 3
+2025-10-19 18:34:39 INFO tests/my_test.rs:242 - The third element is 3
+2025-10-19 18:34:39 INFO tests/my_test.rs:248 - 100
+2025-10-19 18:34:39 INFO tests/my_test.rs:248 - 32
+2025-10-19 18:34:39 INFO tests/my_test.rs:248 - 57
+2025-10-19 18:34:39 INFO tests/my_test.rs:255 - [150, 82, 107]
+2025-10-19 18:34:39 INFO tests/my_test.rs:257 - こんにちは
+2025-10-19 18:34:39 INFO tests/my_test.rs:261 - hellobar
+2025-10-19 18:34:39 INFO tests/my_test.rs:266 - s2 is bar
+2025-10-19 18:34:39 INFO tests/my_test.rs:267 - s1 is foobar
+2025-10-19 18:34:39 INFO tests/my_test.rs:271 - lol
+2025-10-19 18:35:41 INFO tests/my_test.rs:228 - [1, 2, 3]
+2025-10-19 18:35:41 INFO tests/my_test.rs:235 - [5, 6, 7, 8]
+2025-10-19 18:35:41 INFO tests/my_test.rs:239 - The third element is 3
+2025-10-19 18:35:41 INFO tests/my_test.rs:242 - The third element is 3
+2025-10-19 18:35:41 INFO tests/my_test.rs:248 - 100
+2025-10-19 18:35:41 INFO tests/my_test.rs:248 - 32
+2025-10-19 18:35:41 INFO tests/my_test.rs:248 - 57
+2025-10-19 18:35:41 INFO tests/my_test.rs:255 - [150, 82, 107]
+2025-10-19 18:35:41 INFO tests/my_test.rs:257 - こんにちは
+2025-10-19 18:35:41 INFO tests/my_test.rs:261 - hellobar
+2025-10-19 18:35:41 INFO tests/my_test.rs:266 - s2 is bar
+2025-10-19 18:35:41 INFO tests/my_test.rs:267 - s1 is foobar
+2025-10-19 18:35:41 INFO tests/my_test.rs:271 - lol
+2025-10-19 18:35:41 INFO tests/my_test.rs:276 - hello, world
+2025-10-19 18:35:41 INFO tests/my_test.rs:277 - world
+2025-10-19 18:39:02 INFO tests/my_test.rs:228 - [1, 2, 3]
+2025-10-19 18:39:02 INFO tests/my_test.rs:235 - [5, 6, 7, 8]
+2025-10-19 18:39:02 INFO tests/my_test.rs:239 - The third element is 3
+2025-10-19 18:39:02 INFO tests/my_test.rs:242 - The third element is 3
+2025-10-19 18:39:02 INFO tests/my_test.rs:248 - 100
+2025-10-19 18:39:02 INFO tests/my_test.rs:248 - 32
+2025-10-19 18:39:02 INFO tests/my_test.rs:248 - 57
+2025-10-19 18:39:02 INFO tests/my_test.rs:255 - [150, 82, 107]
+2025-10-19 18:39:02 INFO tests/my_test.rs:257 - こんにちは
+2025-10-19 18:39:02 INFO tests/my_test.rs:261 - hellobar
+2025-10-19 18:39:02 INFO tests/my_test.rs:266 - s2 is bar
+2025-10-19 18:39:02 INFO tests/my_test.rs:267 - s1 is foobar
+2025-10-19 18:39:02 INFO tests/my_test.rs:271 - lol
+2025-10-19 18:39:02 INFO tests/my_test.rs:276 - hello, world
+2025-10-19 18:39:02 INFO tests/my_test.rs:277 - world
+2025-10-19 18:39:02 INFO tests/my_test.rs:282 -  s1 tic, s2: tac, s3: toe, s: tic-tac-toe
+2025-10-19 18:41:42 INFO tests/my_test.rs:228 - [1, 2, 3]
+2025-10-19 18:41:42 INFO tests/my_test.rs:235 - [5, 6, 7, 8]
+2025-10-19 18:41:42 INFO tests/my_test.rs:239 - The third element is 3
+2025-10-19 18:41:42 INFO tests/my_test.rs:242 - The third element is 3
+2025-10-19 18:41:42 INFO tests/my_test.rs:248 - 100
+2025-10-19 18:41:42 INFO tests/my_test.rs:248 - 32
+2025-10-19 18:41:42 INFO tests/my_test.rs:248 - 57
+2025-10-19 18:41:42 INFO tests/my_test.rs:255 - [150, 82, 107]
+2025-10-19 18:41:42 INFO tests/my_test.rs:257 - こんにちは
+2025-10-19 18:41:42 INFO tests/my_test.rs:261 - hellobar
+2025-10-19 18:41:42 INFO tests/my_test.rs:266 - s2 is bar
+2025-10-19 18:41:42 INFO tests/my_test.rs:267 - s1 is foobar
+2025-10-19 18:41:42 INFO tests/my_test.rs:271 - lol
+2025-10-19 18:41:42 INFO tests/my_test.rs:276 - hello, world
+2025-10-19 18:41:42 INFO tests/my_test.rs:277 - world
+2025-10-19 18:41:42 INFO tests/my_test.rs:282 -  s1 tic, s2: tac, s3: toe, s: tic-tac-toe
+2025-10-19 18:41:42 INFO tests/my_test.rs:285 - न
+2025-10-19 18:41:42 INFO tests/my_test.rs:285 - म
+2025-10-19 18:41:42 INFO tests/my_test.rs:285 - स
+2025-10-19 18:41:42 INFO tests/my_test.rs:285 - ्
+2025-10-19 18:41:42 INFO tests/my_test.rs:285 - त
+2025-10-19 18:41:42 INFO tests/my_test.rs:285 - े
+2025-10-19 18:45:07 INFO tests/my_test.rs:228 - [1, 2, 3]
+2025-10-19 18:45:07 INFO tests/my_test.rs:235 - [5, 6, 7, 8]
+2025-10-19 18:45:07 INFO tests/my_test.rs:239 - The third element is 3
+2025-10-19 18:45:07 INFO tests/my_test.rs:242 - The third element is 3
+2025-10-19 18:45:07 INFO tests/my_test.rs:248 - 100
+2025-10-19 18:45:07 INFO tests/my_test.rs:248 - 32
+2025-10-19 18:45:07 INFO tests/my_test.rs:248 - 57
+2025-10-19 18:45:07 INFO tests/my_test.rs:255 - [150, 82, 107]
+2025-10-19 18:45:07 INFO tests/my_test.rs:257 - こんにちは
+2025-10-19 18:45:07 INFO tests/my_test.rs:261 - hellobar
+2025-10-19 18:45:07 INFO tests/my_test.rs:266 - s2 is bar
+2025-10-19 18:45:07 INFO tests/my_test.rs:267 - s1 is foobar
+2025-10-19 18:45:07 INFO tests/my_test.rs:271 - lol
+2025-10-19 18:45:07 INFO tests/my_test.rs:276 - hello, world
+2025-10-19 18:45:07 INFO tests/my_test.rs:277 - world
+2025-10-19 18:45:07 INFO tests/my_test.rs:282 -  s1 tic, s2: tac, s3: toe, s: tic-tac-toe
+2025-10-19 18:45:07 INFO tests/my_test.rs:285 - न
+2025-10-19 18:45:07 INFO tests/my_test.rs:285 - म
+2025-10-19 18:45:07 INFO tests/my_test.rs:285 - स
+2025-10-19 18:45:07 INFO tests/my_test.rs:285 - ्
+2025-10-19 18:45:07 INFO tests/my_test.rs:285 - त
+2025-10-19 18:45:07 INFO tests/my_test.rs:285 - े
+2025-10-19 18:45:07 INFO tests/my_test.rs:291 - {"Blue": 10, "Yellow": 50}
+2025-10-19 18:47:31 INFO tests/my_test.rs:228 - [1, 2, 3]
+2025-10-19 18:47:31 INFO tests/my_test.rs:235 - [5, 6, 7, 8]
+2025-10-19 18:47:31 INFO tests/my_test.rs:239 - The third element is 3
+2025-10-19 18:47:31 INFO tests/my_test.rs:242 - The third element is 3
+2025-10-19 18:47:31 INFO tests/my_test.rs:248 - 100
+2025-10-19 18:47:31 INFO tests/my_test.rs:248 - 32
+2025-10-19 18:47:31 INFO tests/my_test.rs:248 - 57
+2025-10-19 18:47:31 INFO tests/my_test.rs:255 - [150, 82, 107]
+2025-10-19 18:47:31 INFO tests/my_test.rs:257 - こんにちは
+2025-10-19 18:47:31 INFO tests/my_test.rs:261 - hellobar
+2025-10-19 18:47:31 INFO tests/my_test.rs:266 - s2 is bar
+2025-10-19 18:47:31 INFO tests/my_test.rs:267 - s1 is foobar
+2025-10-19 18:47:31 INFO tests/my_test.rs:271 - lol
+2025-10-19 18:47:31 INFO tests/my_test.rs:276 - hello, world
+2025-10-19 18:47:31 INFO tests/my_test.rs:277 - world
+2025-10-19 18:47:31 INFO tests/my_test.rs:282 -  s1 tic, s2: tac, s3: toe, s: tic-tac-toe
+2025-10-19 18:47:31 INFO tests/my_test.rs:285 - न
+2025-10-19 18:47:31 INFO tests/my_test.rs:285 - म
+2025-10-19 18:47:31 INFO tests/my_test.rs:285 - स
+2025-10-19 18:47:31 INFO tests/my_test.rs:285 - ्
+2025-10-19 18:47:31 INFO tests/my_test.rs:285 - त
+2025-10-19 18:47:31 INFO tests/my_test.rs:285 - े
+2025-10-19 18:47:31 INFO tests/my_test.rs:291 - {"Blue": 10, "Yellow": 50}
+2025-10-19 18:47:31 INFO tests/my_test.rs:296 - {"Blue": 10, "yellow": 50}
+2025-10-19 18:50:16 INFO tests/my_test.rs:228 - [1, 2, 3]
+2025-10-19 18:50:16 INFO tests/my_test.rs:235 - [5, 6, 7, 8]
+2025-10-19 18:50:16 INFO tests/my_test.rs:239 - The third element is 3
+2025-10-19 18:50:16 INFO tests/my_test.rs:242 - The third element is 3
+2025-10-19 18:50:16 INFO tests/my_test.rs:248 - 100
+2025-10-19 18:50:16 INFO tests/my_test.rs:248 - 32
+2025-10-19 18:50:16 INFO tests/my_test.rs:248 - 57
+2025-10-19 18:50:16 INFO tests/my_test.rs:255 - [150, 82, 107]
+2025-10-19 18:50:16 INFO tests/my_test.rs:257 - こんにちは
+2025-10-19 18:50:16 INFO tests/my_test.rs:261 - hellobar
+2025-10-19 18:50:16 INFO tests/my_test.rs:266 - s2 is bar
+2025-10-19 18:50:16 INFO tests/my_test.rs:267 - s1 is foobar
+2025-10-19 18:50:16 INFO tests/my_test.rs:271 - lol
+2025-10-19 18:50:16 INFO tests/my_test.rs:276 - hello, world
+2025-10-19 18:50:16 INFO tests/my_test.rs:277 - world
+2025-10-19 18:50:16 INFO tests/my_test.rs:282 -  s1 tic, s2: tac, s3: toe, s: tic-tac-toe
+2025-10-19 18:50:16 INFO tests/my_test.rs:285 - न
+2025-10-19 18:50:16 INFO tests/my_test.rs:285 - म
+2025-10-19 18:50:16 INFO tests/my_test.rs:285 - स
+2025-10-19 18:50:16 INFO tests/my_test.rs:285 - ्
+2025-10-19 18:50:16 INFO tests/my_test.rs:285 - त
+2025-10-19 18:50:16 INFO tests/my_test.rs:285 - े
+2025-10-19 18:50:16 INFO tests/my_test.rs:291 - {"Yellow": 50, "Blue": 10}
+2025-10-19 18:50:16 INFO tests/my_test.rs:296 - {"yellow": 50, "Blue": 10}
+2025-10-19 18:50:16 INFO tests/my_test.rs:300 - score: 10
+2025-10-19 18:51:00 INFO tests/my_test.rs:228 - [1, 2, 3]
+2025-10-19 18:51:00 INFO tests/my_test.rs:235 - [5, 6, 7, 8]
+2025-10-19 18:51:00 INFO tests/my_test.rs:239 - The third element is 3
+2025-10-19 18:51:00 INFO tests/my_test.rs:242 - The third element is 3
+2025-10-19 18:51:00 INFO tests/my_test.rs:248 - 100
+2025-10-19 18:51:00 INFO tests/my_test.rs:248 - 32
+2025-10-19 18:51:00 INFO tests/my_test.rs:248 - 57
+2025-10-19 18:51:00 INFO tests/my_test.rs:255 - [150, 82, 107]
+2025-10-19 18:51:00 INFO tests/my_test.rs:257 - こんにちは
+2025-10-19 18:51:00 INFO tests/my_test.rs:261 - hellobar
+2025-10-19 18:51:00 INFO tests/my_test.rs:266 - s2 is bar
+2025-10-19 18:51:00 INFO tests/my_test.rs:267 - s1 is foobar
+2025-10-19 18:51:00 INFO tests/my_test.rs:271 - lol
+2025-10-19 18:51:00 INFO tests/my_test.rs:276 - hello, world
+2025-10-19 18:51:00 INFO tests/my_test.rs:277 - world
+2025-10-19 18:51:00 INFO tests/my_test.rs:282 -  s1 tic, s2: tac, s3: toe, s: tic-tac-toe
+2025-10-19 18:51:00 INFO tests/my_test.rs:285 - न
+2025-10-19 18:51:00 INFO tests/my_test.rs:285 - म
+2025-10-19 18:51:00 INFO tests/my_test.rs:285 - स
+2025-10-19 18:51:00 INFO tests/my_test.rs:285 - ्
+2025-10-19 18:51:00 INFO tests/my_test.rs:285 - त
+2025-10-19 18:51:00 INFO tests/my_test.rs:285 - े
+2025-10-19 18:51:00 INFO tests/my_test.rs:291 - {"Yellow": 50, "Blue": 10}
+2025-10-19 18:51:00 INFO tests/my_test.rs:296 - {"Blue": 10, "yellow": 50}
+2025-10-19 18:51:00 INFO tests/my_test.rs:300 - score: 10
+2025-10-19 18:51:00 INFO tests/my_test.rs:303 - Blue: 10
+2025-10-19 18:51:00 INFO tests/my_test.rs:303 - yellow: 50
+2025-10-19 18:53:51 INFO tests/my_test.rs:228 - [1, 2, 3]
+2025-10-19 18:53:51 INFO tests/my_test.rs:235 - [5, 6, 7, 8]
+2025-10-19 18:53:51 INFO tests/my_test.rs:239 - The third element is 3
+2025-10-19 18:53:51 INFO tests/my_test.rs:242 - The third element is 3
+2025-10-19 18:53:51 INFO tests/my_test.rs:248 - 100
+2025-10-19 18:53:51 INFO tests/my_test.rs:248 - 32
+2025-10-19 18:53:51 INFO tests/my_test.rs:248 - 57
+2025-10-19 18:53:51 INFO tests/my_test.rs:255 - [150, 82, 107]
+2025-10-19 18:53:51 INFO tests/my_test.rs:257 - こんにちは
+2025-10-19 18:53:51 INFO tests/my_test.rs:261 - hellobar
+2025-10-19 18:53:51 INFO tests/my_test.rs:266 - s2 is bar
+2025-10-19 18:53:51 INFO tests/my_test.rs:267 - s1 is foobar
+2025-10-19 18:53:51 INFO tests/my_test.rs:271 - lol
+2025-10-19 18:53:51 INFO tests/my_test.rs:276 - hello, world
+2025-10-19 18:53:51 INFO tests/my_test.rs:277 - world
+2025-10-19 18:53:51 INFO tests/my_test.rs:282 -  s1 tic, s2: tac, s3: toe, s: tic-tac-toe
+2025-10-19 18:53:51 INFO tests/my_test.rs:285 - न
+2025-10-19 18:53:51 INFO tests/my_test.rs:285 - म
+2025-10-19 18:53:51 INFO tests/my_test.rs:285 - स
+2025-10-19 18:53:51 INFO tests/my_test.rs:285 - ्
+2025-10-19 18:53:51 INFO tests/my_test.rs:285 - त
+2025-10-19 18:53:51 INFO tests/my_test.rs:285 - े
+2025-10-19 18:53:51 INFO tests/my_test.rs:291 - {"Blue": 10, "Yellow": 50}
+2025-10-19 18:53:51 INFO tests/my_test.rs:296 - {"yellow": 50, "Blue": 10}
+2025-10-19 18:53:51 INFO tests/my_test.rs:300 - score: 10
+2025-10-19 18:53:51 INFO tests/my_test.rs:303 - yellow: 50
+2025-10-19 18:53:51 INFO tests/my_test.rs:303 - Blue: 10
+2025-10-19 18:53:51 INFO tests/my_test.rs:309 - {"Blue": 25}
+2025-10-19 18:56:32 INFO tests/my_test.rs:228 - [1, 2, 3]
+2025-10-19 18:56:32 INFO tests/my_test.rs:235 - [5, 6, 7, 8]
+2025-10-19 18:56:32 INFO tests/my_test.rs:239 - The third element is 3
+2025-10-19 18:56:32 INFO tests/my_test.rs:242 - The third element is 3
+2025-10-19 18:56:32 INFO tests/my_test.rs:248 - 100
+2025-10-19 18:56:32 INFO tests/my_test.rs:248 - 32
+2025-10-19 18:56:32 INFO tests/my_test.rs:248 - 57
+2025-10-19 18:56:32 INFO tests/my_test.rs:255 - [150, 82, 107]
+2025-10-19 18:56:32 INFO tests/my_test.rs:257 - こんにちは
+2025-10-19 18:56:32 INFO tests/my_test.rs:261 - hellobar
+2025-10-19 18:56:32 INFO tests/my_test.rs:266 - s2 is bar
+2025-10-19 18:56:32 INFO tests/my_test.rs:267 - s1 is foobar
+2025-10-19 18:56:32 INFO tests/my_test.rs:271 - lol
+2025-10-19 18:56:32 INFO tests/my_test.rs:276 - hello, world
+2025-10-19 18:56:32 INFO tests/my_test.rs:277 - world
+2025-10-19 18:56:32 INFO tests/my_test.rs:282 -  s1 tic, s2: tac, s3: toe, s: tic-tac-toe
+2025-10-19 18:56:32 INFO tests/my_test.rs:285 - न
+2025-10-19 18:56:32 INFO tests/my_test.rs:285 - म
+2025-10-19 18:56:32 INFO tests/my_test.rs:285 - स
+2025-10-19 18:56:32 INFO tests/my_test.rs:285 - ्
+2025-10-19 18:56:32 INFO tests/my_test.rs:285 - त
+2025-10-19 18:56:32 INFO tests/my_test.rs:285 - े
+2025-10-19 18:56:32 INFO tests/my_test.rs:291 - {"Blue": 10, "Yellow": 50}
+2025-10-19 18:56:32 INFO tests/my_test.rs:296 - {"yellow": 50, "Blue": 10}
+2025-10-19 18:56:32 INFO tests/my_test.rs:300 - score: 10
+2025-10-19 18:56:32 INFO tests/my_test.rs:303 - yellow: 50
+2025-10-19 18:56:32 INFO tests/my_test.rs:303 - Blue: 10
+2025-10-19 18:56:32 INFO tests/my_test.rs:309 - {"Blue": 25}
+2025-10-19 18:56:32 INFO tests/my_test.rs:316 - {"Blue": 10, "Yellow": 50}
+2025-10-19 18:58:43 INFO tests/my_test.rs:228 - [1, 2, 3]
+2025-10-19 18:58:43 INFO tests/my_test.rs:235 - [5, 6, 7, 8]
+2025-10-19 18:58:43 INFO tests/my_test.rs:239 - The third element is 3
+2025-10-19 18:58:43 INFO tests/my_test.rs:242 - The third element is 3
+2025-10-19 18:58:43 INFO tests/my_test.rs:248 - 100
+2025-10-19 18:58:43 INFO tests/my_test.rs:248 - 32
+2025-10-19 18:58:43 INFO tests/my_test.rs:248 - 57
+2025-10-19 18:58:43 INFO tests/my_test.rs:255 - [150, 82, 107]
+2025-10-19 18:58:43 INFO tests/my_test.rs:257 - こんにちは
+2025-10-19 18:58:43 INFO tests/my_test.rs:261 - hellobar
+2025-10-19 18:58:43 INFO tests/my_test.rs:266 - s2 is bar
+2025-10-19 18:58:43 INFO tests/my_test.rs:267 - s1 is foobar
+2025-10-19 18:58:43 INFO tests/my_test.rs:271 - lol
+2025-10-19 18:58:43 INFO tests/my_test.rs:276 - hello, world
+2025-10-19 18:58:43 INFO tests/my_test.rs:277 - world
+2025-10-19 18:58:43 INFO tests/my_test.rs:282 -  s1 tic, s2: tac, s3: toe, s: tic-tac-toe
+2025-10-19 18:58:43 INFO tests/my_test.rs:285 - न
+2025-10-19 18:58:43 INFO tests/my_test.rs:285 - म
+2025-10-19 18:58:43 INFO tests/my_test.rs:285 - स
+2025-10-19 18:58:43 INFO tests/my_test.rs:285 - ्
+2025-10-19 18:58:43 INFO tests/my_test.rs:285 - त
+2025-10-19 18:58:43 INFO tests/my_test.rs:285 - े
+2025-10-19 18:58:43 INFO tests/my_test.rs:291 - {"Blue": 10, "Yellow": 50}
+2025-10-19 18:58:43 INFO tests/my_test.rs:296 - {"Blue": 10, "yellow": 50}
+2025-10-19 18:58:43 INFO tests/my_test.rs:300 - score: 10
+2025-10-19 18:58:43 INFO tests/my_test.rs:303 - Blue: 10
+2025-10-19 18:58:43 INFO tests/my_test.rs:303 - yellow: 50
+2025-10-19 18:58:43 INFO tests/my_test.rs:309 - {"Blue": 25}
+2025-10-19 18:58:43 INFO tests/my_test.rs:316 - {"Yellow": 50, "Blue": 10}
+2025-10-19 18:58:43 INFO tests/my_test.rs:325 - {"wonderful": 1, "hello": 1, "world": 2}

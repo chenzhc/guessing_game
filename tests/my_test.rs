@@ -5,7 +5,7 @@
 #![allow(dead_code)]
 #![allow(unused_variables)]
 
-use std::path::Ancestors;
+use std::{collections::HashMap, path::Ancestors};
 
 use guessing_game::init;
 use log::info;
@@ -219,6 +219,111 @@ fn it_match_test01() {
     if let Some(3) = some_u8_value {
         info!("three")
     }
+}
+
+#[test]
+fn it_vector_test01() {
+    init();
+    let v = vec![1,2,3];
+    info!("{:?}", v);
+
+    let mut v = Vec::new();
+    v.push(5);
+    v.push(6);
+    v.push(7);
+    v.push(8);
+    info!("{:?}", v);
+    
+    let v = vec![1,2,3,4,5];
+    let third: &i32 = &v[2];
+    info!("The third element is {}", third);
+
+    match v.get(2) {
+        Some(third) => info!("The third element is {}", third),
+        None => info!("There is no third element."),
+    }
+
+    let v = vec![100,32,57];
+    for i in &v {
+        info!("{}",i);
+    }
+
+    let mut v = vec![100,32,57];
+    for i in &mut v {
+        *i += 50;
+    }
+    info!("{:?}", v);
+    let hello = String::from("こんにちは");
+    info!("{}", hello);
+
+    let mut s = String::from("hello");
+    s.push_str("bar");
+    info!("{}", s);
+
+    let mut s1 = String::from("foo");
+    let s2 = "bar";
+    s1.push_str(s2);
+    info!("s2 is {}", s2);
+    info!("s1 is {}", s1);
+
+    let mut s = String::from("lo");
+    s.push('l');
+    info!("{}", s);
+
+    let s1 = String::from("hello, ");
+    let s2 = String::from("world");
+    let s3 = s1 + &s2;
+    info!("{}", s3);
+    info!("{}", s2);
+    let s1 = String::from("tic");
+    let s2 = String::from("tac");
+    let s3 = String::from("toe");
+    let s = format!("{}-{}-{}", s1, s2, s3);
+    info!(" s1 {}, s2: {}, s3: {}, s: {}", s1, s2, s3, s);
+
+    for c in "नमस्ते".chars() {
+        info!("{}", c);
+    }
+
+    let mut scores = HashMap::new();
+    scores.insert(String::from("Blue"), 10);
+    scores.insert(String::from("Yellow"), 50);
+    info!("{:?}", scores);
+
+    let tems = vec![String::from("Blue"), String::from("yellow")];
+    let initial_scores = vec![10,50];
+    let scores: HashMap<_, _> = tems.iter().zip(initial_scores.iter()).collect();
+    info!("{:?}", scores);
+
+    let team_name = String::from("Blue");
+    let score = scores.get(&team_name);
+    info!("score: {}", score.unwrap());
+
+    for (key, value) in &scores {
+        info!("{}: {}", key, value);
+    }
+
+    let mut scores = HashMap::new();
+    scores.insert(String::from("Blue"), 10);
+    scores.insert(String::from("Blue"), 25);
+    info!("{:?}", scores);
+
+    let mut scores = HashMap::new();
+    scores.insert(String::from("Blue"), 10);
+
+    scores.entry(String::from("Yellow")).or_insert(50);
+    scores.entry(String::from("Blue")).or_insert(50);
+    info!("{:?}", scores);
+
+    let text = "hello world wonderful world";
+    let mut map = HashMap::new();
+
+    for word in text.split_whitespace() {
+        let count = map.entry(word).or_insert(0);
+        *count += 1;
+    }
+    info!("{:?}", map);
+
 }
 
 fn add_fancy_hat() {
