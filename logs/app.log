@@ -674,3 +674,5 @@
 2025-10-19 21:23:46 INFO tests/my_test.rs:361 - The largest number is 6000
 2025-10-19 21:23:46 INFO tests/my_test.rs:365 - The largest char is y
 2025-10-19 21:27:49 INFO tests/my_test.rs:373 - p.x = 5
+2025-10-19 21:33:28 INFO tests/my_test.rs:373 - p.x = 5
+2025-10-19 21:33:28 INFO tests/my_test.rs:378 - p3.x = 5, p3.y = c

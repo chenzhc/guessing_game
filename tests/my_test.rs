@@ -371,7 +371,26 @@ fn it_point2_test01() {
     init();
     let p = Point2 { x: 5, y: 10 };
     info!("p.x = {}", p.x());
+
+    let p1 = Point3 { x: 5, y: 10.4 };
+    let p2 = Point3 { x: "hello", y: 'c'};
+    let p3 = p1.mixup(p2);
+    info!("p3.x = {}, p3.y = {}", p3.x, p3.y);
     
+}
+
+struct Point3<T, U> {
+    x: T,
+    y: U,
+}
+
+impl<T, U> Point3<T, U> {
+    fn mixup<V,W>(self, other: Point3<V, W>) -> Point3<T,W> {
+        Point3 {
+            x: self.x,
+            y: other.y,
+        }
+    }
 }
 
 struct Point2<T> {
