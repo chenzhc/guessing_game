@@ -663,3 +663,14 @@
 2025-10-19 18:58:43 INFO tests/my_test.rs:309 - {"Blue": 25}
 2025-10-19 18:58:43 INFO tests/my_test.rs:316 - {"Yellow": 50, "Blue": 10}
 2025-10-19 18:58:43 INFO tests/my_test.rs:325 - {"wonderful": 1, "hello": 1, "world": 2}
+2025-10-19 21:11:09 INFO tests/my_test.rs:354 - The largest number is 100
+2025-10-19 21:13:04 INFO tests/my_test.rs:354 - The largest number is 100
+2025-10-19 21:13:04 INFO tests/my_test.rs:358 - The largest number is 6000
+2025-10-19 21:23:05 INFO tests/my_test.rs:354 - The largest number is 100
+2025-10-19 21:23:05 INFO tests/my_test.rs:358 - The largest number is 6000
+2025-10-19 21:23:05 INFO tests/my_test.rs:362 - The largest char is y
+2025-10-19 21:23:46 INFO tests/my_test.rs:354 - The largest number is 100
+2025-10-19 21:23:46 INFO tests/my_test.rs:358 - The largest number is 6000
+2025-10-19 21:23:46 INFO tests/my_test.rs:361 - The largest number is 6000
+2025-10-19 21:23:46 INFO tests/my_test.rs:365 - The largest char is y
+2025-10-19 21:27:49 INFO tests/my_test.rs:373 - p.x = 5

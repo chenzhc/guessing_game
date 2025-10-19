@@ -5,6 +5,7 @@
 #![allow(dead_code)]
 #![allow(unused_variables)]
 
+use core::num;
 use std::{collections::HashMap, fs::File, io::{self, ErrorKind, Read}, path::Ancestors};
 
 use guessing_game::init;
@@ -342,6 +343,79 @@ fn it_result_test01() {
         },
     };
 
+}
+
+#[test]
+fn it_largest_test01() {
+    init();
+
+    let number_list = vec![34,50,25,100,65];
+    let result = largest(&number_list);
+    info!("The largest number is {}", result);
+
+    let number_list = vec![102, 34, 6000, 89, 54, 2, 43, 8];
+    let result = largest(&number_list);
+    info!("The largest number is {}", result);
+
+    let result = largest_i32(&number_list);
+    info!("The largest number is {}", result);
+
+    let char_list = vec!['y', 'm', 'a', 'q'];
+    let result = largest_char(&char_list);
+    info!("The largest char is {}", result);
+
+}
+
+#[test]
+fn it_point2_test01() {
+    init();
+    let p = Point2 { x: 5, y: 10 };
+    info!("p.x = {}", p.x());
+    
+}
+
+struct Point2<T> {
+    x: T,
+    y: T,
+}
+
+impl<T> Point2<T> {
+    fn x(&self) -> &T {
+        &self.x
+    }
+}
+
+fn largest_i32(list: &[i32]) -> i32 {
+    let mut largest = list[0];
+
+    for &item in list.iter() {
+        if item > largest {
+            largest = item;
+        }
+    }
+    largest
+}
+
+fn largest_char(list: &[char]) -> char {
+    let mut largest = list[0];
+
+    for &item in list.iter() {
+        if item > largest {
+            largest = item;
+        }
+    }
+    largest
+}
+
+fn largest(list: &[i32]) -> i32 {
+    let mut largest = list[0];
+    for &item in list {
+        if item > largest {
+            largest = item;
+        }
+    }
+
+    return largest;
 }
 
 fn read_username_from_file3() -> anyhow::Result<String, io::Error> {
