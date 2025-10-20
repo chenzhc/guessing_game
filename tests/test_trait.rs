@@ -152,6 +152,16 @@ impl<T> Cacher<T>
 }
 
 #[test]
+fn it_close_test01() {
+    init();
+    let x = 4;
+    let equal_to_x = |z| z == x;
+    let y = 4;
+    
+    info!("{}", equal_to_x(y));
+}
+
+#[test]
 fn it_generate_test01() {
     init();
     let simulated_user_specified_value = 10;
