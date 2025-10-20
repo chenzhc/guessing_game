@@ -676,3 +676,26 @@
 2025-10-19 21:27:49 INFO tests/my_test.rs:373 - p.x = 5
 2025-10-19 21:33:28 INFO tests/my_test.rs:373 - p.x = 5
 2025-10-19 21:33:28 INFO tests/my_test.rs:378 - p3.x = 5, p3.y = c
+2025-10-20 11:24:41 INFO tests\test_trait.rs:53 - 1 new tweet: horse_ebooks: of course, as you probably already know, people
+2025-10-20 11:46:06 INFO tests\test_trait.rs:55 - 1 new tweet: horse_ebooks: of course, as you probably already know, people
+2025-10-20 13:23:19 INFO tests\test_trait.rs:55 - 1 new tweet: horse_ebooks: of course, as you probably already know, people
+2025-10-20 13:25:43 INFO tests\test_trait.rs:55 - 1 new tweet: horse_ebooks: of course, as you probably already know, people
+2025-10-20 13:25:43 INFO tests\test_trait.rs:63 - New article avialble! (Read more...)
+2025-10-20 13:29:11 INFO tests\test_trait.rs:63 - 1 new tweet: horse_ebooks: of course, as you probably already know, people
+2025-10-20 13:29:11 INFO tests\test_trait.rs:71 - New article avialble! (Read more from @Iceburgh...)
+2025-10-20 13:29:23 INFO tests\test_trait.rs:60 - 1 new tweet: (Read more from @horse_ebooks...)
+2025-10-20 13:29:23 INFO tests\test_trait.rs:68 - New article avialble! (Read more from @Iceburgh...)
+2025-10-20 13:31:37 INFO tests\test_trait.rs:64 - 1 new tweet: (Read more from @horse_ebooks...)
+2025-10-20 13:31:37 INFO tests\test_trait.rs:72 - New article avialble! (Read more from @Iceburgh...)
+2025-10-20 13:31:37 INFO tests\test_trait.rs:51 - Breaking news! (Read more from @Iceburgh...)
+2025-10-20 13:34:58 INFO tests\test_trait.rs:64 - 1 new tweet: (Read more from @horse_ebooks...)
+2025-10-20 13:34:58 INFO tests\test_trait.rs:72 - New article avialble! (Read more from @Iceburgh...)
+2025-10-20 13:34:58 INFO tests\test_trait.rs:51 - Breaking news! (Read more from @Iceburgh...)
+2025-10-20 13:43:32 INFO tests\test_trait.rs:68 - 1 new tweet: (Read more from @horse_ebooks...)
+2025-10-20 13:43:32 INFO tests\test_trait.rs:76 - New article avialble! (Read more from @Iceburgh...)
+2025-10-20 13:43:32 INFO tests\test_trait.rs:51 - Breaking news! (Read more from @Iceburgh...)
+2025-10-20 13:50:46 INFO tests\my_test.rs:426 - The largest number is 100
+2025-10-20 13:50:46 INFO tests\my_test.rs:430 - The largest char is y
+2025-10-20 14:28:46 INFO tests\test_trait.rs:103 - The longest string is abcd
+2025-10-20 14:35:26 INFO tests\test_trait.rs:115 - The longest string is long string is long
+2025-10-20 14:35:31 INFO tests\test_trait.rs:115 - The longest string is long string is long
