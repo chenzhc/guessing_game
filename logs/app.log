@@ -714,3 +714,47 @@
 2025-10-20 20:37:39 INFO tests/test_trait.rs:113 - Today, do 10 pushups!
 2025-10-20 20:37:39 INFO tests/test_trait.rs:114 - Next, do 10 situps!
 2025-10-20 21:44:27 INFO tests/test_trait.rs:161 - true
+2025-10-21 11:06:07 INFO tests\test_trait.rs:161 - true
+2025-10-21 11:30:41 INFO tests\test_trait.rs:159 - [1, 2, 3]
+2025-10-21 11:30:46 INFO tests\test_trait.rs:159 - [1, 2, 3]
+2025-10-21 11:31:53 INFO tests\test_trait.rs:159 - [1, 2, 3]
+2025-10-21 11:31:53 INFO tests\test_trait.rs:162 - Got: 1
+2025-10-21 11:31:53 INFO tests\test_trait.rs:162 - Got: 2
+2025-10-21 11:31:53 INFO tests\test_trait.rs:162 - Got: 3
+2025-10-21 13:37:18 INFO tests\test_trait.rs:159 - [1, 2, 3]
+2025-10-21 13:37:18 INFO tests\test_trait.rs:162 - Got: 1
+2025-10-21 13:37:18 INFO tests\test_trait.rs:162 - Got: 2
+2025-10-21 13:37:18 INFO tests\test_trait.rs:162 - Got: 3
+2025-10-21 13:37:18 INFO tests\test_trait.rs:167 - Some(1)
+2025-10-21 13:42:53 INFO tests\test_trait.rs:159 - [1, 2, 3]
+2025-10-21 13:42:53 INFO tests\test_trait.rs:162 - Got: 1
+2025-10-21 13:42:53 INFO tests\test_trait.rs:162 - Got: 2
+2025-10-21 13:42:53 INFO tests\test_trait.rs:162 - Got: 3
+2025-10-21 13:42:53 INFO tests\test_trait.rs:167 - Some(1)
+2025-10-21 13:42:53 INFO tests\test_trait.rs:172 - 6
+2025-10-21 13:46:48 INFO tests\test_trait.rs:159 - [1, 2, 3]
+2025-10-21 13:46:48 INFO tests\test_trait.rs:162 - Got: 1
+2025-10-21 13:46:48 INFO tests\test_trait.rs:162 - Got: 2
+2025-10-21 13:46:48 INFO tests\test_trait.rs:162 - Got: 3
+2025-10-21 13:46:48 INFO tests\test_trait.rs:167 - Some(1)
+2025-10-21 13:46:48 INFO tests\test_trait.rs:172 - 6
+2025-10-21 13:46:48 INFO tests\test_trait.rs:176 - [2, 3, 4]
+2025-10-21 14:20:43 INFO tests\test_trait.rs:177 - [Shoe { size: 10, style: "sneaker" }, Shoe { size: 10, style: "boot" }]
+2025-10-21 14:21:45 INFO tests\test_trait.rs:177 - [Shoe { size: 10, style: "sneaker" }, Shoe { size: 10, style: "boot" }]
+2025-10-21 14:30:51 INFO tests\test_trait.rs:194 - Some(1)
+2025-10-21 14:33:16 INFO tests\test_trait.rs:194 - Some(1)
+2025-10-21 14:33:16 INFO tests\test_trait.rs:197 - 2
+2025-10-21 14:33:16 INFO tests\test_trait.rs:197 - 3
+2025-10-21 14:33:16 INFO tests\test_trait.rs:197 - 4
+2025-10-21 14:33:16 INFO tests\test_trait.rs:197 - 5
+2025-10-21 14:33:23 INFO tests\test_trait.rs:197 - 1
+2025-10-21 14:33:23 INFO tests\test_trait.rs:197 - 2
+2025-10-21 14:33:23 INFO tests\test_trait.rs:197 - 3
+2025-10-21 14:33:23 INFO tests\test_trait.rs:197 - 4
+2025-10-21 14:33:23 INFO tests\test_trait.rs:197 - 5
+2025-10-21 14:37:50 INFO tests\test_trait.rs:197 - 1
+2025-10-21 14:37:50 INFO tests\test_trait.rs:197 - 2
+2025-10-21 14:37:50 INFO tests\test_trait.rs:197 - 3
+2025-10-21 14:37:50 INFO tests\test_trait.rs:197 - 4
+2025-10-21 14:37:50 INFO tests\test_trait.rs:197 - 5
+2025-10-21 14:37:50 INFO tests\test_trait.rs:205 - sum: 18
