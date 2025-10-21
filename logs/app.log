@@ -758,3 +758,79 @@
 2025-10-21 14:37:50 INFO tests\test_trait.rs:197 - 4
 2025-10-21 14:37:50 INFO tests\test_trait.rs:197 - 5
 2025-10-21 14:37:50 INFO tests\test_trait.rs:205 - sum: 18
+2025-10-21 21:08:03 INFO tests/my_box.rs:16 - b = 5
+2025-10-21 21:24:43 INFO tests/my_box.rs:38 - 5
+2025-10-21 21:24:43 INFO tests/my_box.rs:39 - 5
+2025-10-21 21:25:07 INFO tests/my_box.rs:38 - 5
+2025-10-21 21:25:07 INFO tests/my_box.rs:39 - 0x7cc3133fe2dc
+2025-10-21 21:25:21 INFO tests/my_box.rs:38 - 5
+2025-10-21 21:25:21 INFO tests/my_box.rs:39 - 0x75bfa2ffe24c
+2025-10-21 21:25:21 INFO tests/my_box.rs:40 - 0x75bfa2ffe24c
+2025-10-21 21:26:05 INFO tests/my_box.rs:38 - 5
+2025-10-21 21:26:05 INFO tests/my_box.rs:39 - 0x75930d3fe0f4
+2025-10-21 21:26:05 INFO tests/my_box.rs:40 - 0x75930d3fe0f4
+2025-10-21 21:26:05 INFO tests/my_box.rs:44 - 0x75930d3fe2a4
+2025-10-21 21:26:05 INFO tests/my_box.rs:45 - 0x759308015240
+2025-10-21 21:26:18 INFO tests/my_box.rs:38 - 5
+2025-10-21 21:26:18 INFO tests/my_box.rs:39 - 0x71e343dfe0f4
+2025-10-21 21:26:18 INFO tests/my_box.rs:40 - 0x71e343dfe0f4
+2025-10-21 21:26:18 INFO tests/my_box.rs:44 - 0x71e343dfe2a4
+2025-10-21 21:26:18 INFO tests/my_box.rs:45 - 0x71e343dfe2a8
+2025-10-21 21:26:19 INFO tests/my_box.rs:38 - 5
+2025-10-21 21:26:19 INFO tests/my_box.rs:39 - 0x7881c55fe0f4
+2025-10-21 21:26:19 INFO tests/my_box.rs:40 - 0x7881c55fe0f4
+2025-10-21 21:26:19 INFO tests/my_box.rs:44 - 0x7881c55fe2a4
+2025-10-21 21:26:19 INFO tests/my_box.rs:45 - 0x7881c55fe2a8
+2025-10-21 21:29:37 INFO tests/my_box.rs:40 - 5
+2025-10-21 21:29:37 INFO tests/my_box.rs:41 - 0x7499cbffdfc4
+2025-10-21 21:29:37 INFO tests/my_box.rs:42 - 0x7499cbffdfc4
+2025-10-21 21:29:37 INFO tests/my_box.rs:46 - 0x7499cbffe174
+2025-10-21 21:29:37 INFO tests/my_box.rs:47 - 0x7499cbffe178
+2025-10-21 21:29:37 INFO tests/my_box.rs:51 - 0x7499cbffe2a8
+2025-10-21 21:29:37 INFO tests/my_box.rs:52 - 0x7499cbffe2ac
+2025-10-21 21:29:48 INFO tests/my_box.rs:40 - 5
+2025-10-21 21:29:48 INFO tests/my_box.rs:41 - 0x7b24567fdfc4
+2025-10-21 21:29:48 INFO tests/my_box.rs:42 - 0x7b24567fdfc4
+2025-10-21 21:29:48 INFO tests/my_box.rs:46 - 0x7b24567fe174
+2025-10-21 21:29:48 INFO tests/my_box.rs:47 - 0x7b24567fe178
+2025-10-21 21:29:48 INFO tests/my_box.rs:51 - 0x7b24567fe2a8
+2025-10-21 21:29:48 INFO tests/my_box.rs:52 - 0x7b24567fe2ac
+2025-10-21 21:29:56 INFO tests/my_box.rs:40 - 5
+2025-10-21 21:29:56 INFO tests/my_box.rs:41 - 0x7832b07fdfc4
+2025-10-21 21:29:56 INFO tests/my_box.rs:42 - 0x7832b07fdfc4
+2025-10-21 21:29:56 INFO tests/my_box.rs:46 - 0x7832b07fe174
+2025-10-21 21:29:56 INFO tests/my_box.rs:47 - 0x7832b07fe178
+2025-10-21 21:29:56 INFO tests/my_box.rs:51 - 0x7832b07fe2a8
+2025-10-21 21:29:56 INFO tests/my_box.rs:52 - 0x7832b07fe2ac
+2025-10-21 21:30:16 INFO tests/my_box.rs:40 - 5
+2025-10-21 21:30:16 INFO tests/my_box.rs:41 - 0x7cb4163fdea4
+2025-10-21 21:30:16 INFO tests/my_box.rs:42 - 0x7cb4163fdea4
+2025-10-21 21:30:16 INFO tests/my_box.rs:46 - 0x7cb4163fe054
+2025-10-21 21:30:16 INFO tests/my_box.rs:47 - 0x7cb4163fe058
+2025-10-21 21:30:16 INFO tests/my_box.rs:51 - 0x7cb4163fe188
+2025-10-21 21:30:16 INFO tests/my_box.rs:52 - 0x7cb4163fe18c
+2025-10-21 21:30:16 INFO tests/my_box.rs:53 - 5
+2025-10-21 21:30:16 INFO tests/my_box.rs:54 - 5
+2025-10-21 21:38:18 INFO tests/my_box.rs:40 - 5
+2025-10-21 21:38:18 INFO tests/my_box.rs:41 - 0x7229193fde74
+2025-10-21 21:38:18 INFO tests/my_box.rs:42 - 0x7229193fde74
+2025-10-21 21:38:18 INFO tests/my_box.rs:46 - 0x7229193fe024
+2025-10-21 21:38:18 INFO tests/my_box.rs:47 - 0x7229193fe028
+2025-10-21 21:38:18 INFO tests/my_box.rs:51 - 0x7229193fe158
+2025-10-21 21:38:18 INFO tests/my_box.rs:52 - 0x7229193fe15c
+2025-10-21 21:38:18 INFO tests/my_box.rs:53 - 5
+2025-10-21 21:38:18 INFO tests/my_box.rs:54 - 5
+2025-10-21 21:38:18 INFO tests/my_box.rs:62 - Hello, Rust!
+2025-10-21 21:47:38 INFO tests/my_box.rs:40 - 5
+2025-10-21 21:47:38 INFO tests/my_box.rs:41 - 0x7f39bcdfdda4
+2025-10-21 21:47:38 INFO tests/my_box.rs:42 - 0x7f39bcdfdda4
+2025-10-21 21:47:38 INFO tests/my_box.rs:46 - 0x7f39bcdfdf54
+2025-10-21 21:47:38 INFO tests/my_box.rs:47 - 0x7f39bcdfdf58
+2025-10-21 21:47:38 INFO tests/my_box.rs:51 - 0x7f39bcdfe088
+2025-10-21 21:47:38 INFO tests/my_box.rs:52 - 0x7f39bcdfe08c
+2025-10-21 21:47:38 INFO tests/my_box.rs:53 - 5
+2025-10-21 21:47:38 INFO tests/my_box.rs:54 - 5
+2025-10-21 21:47:38 INFO tests/my_box.rs:76 - Hello, Rust!
+2025-10-21 21:47:38 INFO tests/my_box.rs:61 - CustomSmartPointers created.
+2025-10-21 21:47:38 INFO tests/my_box.rs:71 - Dropping CustomSmartPionter with data `other stuff`!
+2025-10-21 21:47:38 INFO tests/my_box.rs:71 - Dropping CustomSmartPionter with data `my stuff`!
