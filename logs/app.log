@@ -834,3 +834,58 @@
 2025-10-21 21:47:38 INFO tests/my_box.rs:61 - CustomSmartPointers created.
 2025-10-21 21:47:38 INFO tests/my_box.rs:71 - Dropping CustomSmartPionter with data `other stuff`!
 2025-10-21 21:47:38 INFO tests/my_box.rs:71 - Dropping CustomSmartPionter with data `my stuff`!
+2025-10-22 08:44:47 INFO tests\my_box.rs:40 - 5
+2025-10-22 08:44:47 INFO tests\my_box.rs:41 - 0xc6343fe904
+2025-10-22 08:44:47 INFO tests\my_box.rs:42 - 0xc6343fe904
+2025-10-22 08:44:47 INFO tests\my_box.rs:46 - 0xc6343feab4
+2025-10-22 08:44:47 INFO tests\my_box.rs:47 - 0xc6343feab8
+2025-10-22 08:44:47 INFO tests\my_box.rs:51 - 0xc6343febe8
+2025-10-22 08:44:47 INFO tests\my_box.rs:52 - 0xc6343febec
+2025-10-22 08:44:47 INFO tests\my_box.rs:53 - 5
+2025-10-22 08:44:47 INFO tests\my_box.rs:54 - 5
+2025-10-22 08:44:47 INFO tests\my_box.rs:76 - Hello, Rust!
+2025-10-22 08:44:47 INFO tests\my_box.rs:61 - CustomSmartPointers created.
+2025-10-22 08:44:47 INFO tests\my_box.rs:71 - Dropping CustomSmartPionter with data `other stuff`!
+2025-10-22 08:44:47 INFO tests\my_box.rs:71 - Dropping CustomSmartPionter with data `my stuff`!
+2025-10-22 08:47:09 INFO tests\my_box.rs:40 - 5
+2025-10-22 08:47:09 INFO tests\my_box.rs:41 - 0x44a1cfebe4
+2025-10-22 08:47:09 INFO tests\my_box.rs:42 - 0x44a1cfebe4
+2025-10-22 08:47:09 INFO tests\my_box.rs:46 - 0x44a1cfed94
+2025-10-22 08:47:09 INFO tests\my_box.rs:47 - 0x44a1cfed98
+2025-10-22 08:47:09 INFO tests\my_box.rs:51 - 0x44a1cfeec8
+2025-10-22 08:47:09 INFO tests\my_box.rs:52 - 0x44a1cfeecc
+2025-10-22 08:47:09 INFO tests\my_box.rs:53 - 5
+2025-10-22 08:47:09 INFO tests\my_box.rs:54 - 5
+2025-10-22 08:47:09 INFO tests\my_box.rs:77 - Hello, Rust!
+2025-10-22 08:47:09 INFO tests\my_box.rs:72 - Dropping CustomSmartPionter with data `other stuff`!
+2025-10-22 08:47:09 INFO tests\my_box.rs:62 - CustomSmartPointers created.
+2025-10-22 08:47:09 INFO tests\my_box.rs:72 - Dropping CustomSmartPionter with data `my stuff`!
+2025-10-22 08:48:35 INFO tests\my_box.rs:38 - CustomSmartPointer created.
+2025-10-22 08:48:35 INFO tests\my_box.rs:81 - Dropping CustomSmartPionter with data `some data`!
+2025-10-22 08:48:35 INFO tests\my_box.rs:40 - CustomSmartPointer droppped before the end of main.
+2025-10-22 08:48:39 INFO tests\my_box.rs:38 - CustomSmartPointer created.
+2025-10-22 08:48:39 INFO tests\my_box.rs:81 - Dropping CustomSmartPionter with data `some data`!
+2025-10-22 08:48:39 INFO tests\my_box.rs:40 - CustomSmartPointer droppped before the end of main.
+2025-10-22 09:05:58 INFO tests\my_box.rs:26 - 3
+2025-10-22 09:10:50 INFO tests\my_box.rs:33 - count after creating a = 1
+2025-10-22 09:10:50 INFO tests\my_box.rs:35 - count after creating b = 2
+2025-10-22 09:10:50 INFO tests\my_box.rs:38 - count after creating c = 3
+2025-10-22 09:10:50 INFO tests\my_box.rs:40 - count after c goes out of scope = 2
+2025-10-22 11:24:08 INFO tests\my_box.rs:86 - 1
+2025-10-22 11:24:52 INFO tests\my_box.rs:86 - 1
+2025-10-22 11:34:53 INFO tests\my_box.rs:31 - a after = Cons(RefCell { value: 15 }, Nil)
+2025-10-22 11:34:53 INFO tests\my_box.rs:32 - b after = Cons(RefCell { value: 6 }, Cons(RefCell { value: 15 }, Nil))
+2025-10-22 11:34:53 INFO tests\my_box.rs:33 - c after = Cons(RefCell { value: 10 }, Cons(RefCell { value: 15 }, Nil))
+2025-10-22 14:29:59 INFO tests\my_refcell_test.rs:36 - a initial rc count = 1
+2025-10-22 14:29:59 INFO tests\my_refcell_test.rs:37 - a next time = Some(RefCell { value: Nil })
+2025-10-22 14:30:03 INFO tests\my_refcell_test.rs:36 - a initial rc count = 1
+2025-10-22 14:30:03 INFO tests\my_refcell_test.rs:37 - a next time = Some(RefCell { value: Nil })
+2025-10-22 16:20:15 INFO tests\my_refcell_test.rs:36 - a initial rc count = 1
+2025-10-22 16:20:15 INFO tests\my_refcell_test.rs:37 - a next time = Some(RefCell { value: Nil })
+2025-10-22 16:20:15 INFO tests\my_refcell_test.rs:41 - a rc count after b creation = 2
+2025-10-22 16:20:15 INFO tests\my_refcell_test.rs:42 - b initial rc count = 1
+2025-10-22 16:20:15 INFO tests\my_refcell_test.rs:43 - b next item = Some(RefCell { value: Cons(5, RefCell { value: Nil }) })
+2025-10-22 16:20:15 INFO tests\my_refcell_test.rs:49 - b rc count after changing a = 2
+2025-10-22 16:20:15 INFO tests\my_refcell_test.rs:50 - a rc count after changing a = 2
+2025-10-22 17:03:06 INFO tests\my_refcell_test.rs:50 - Node { value: 5, children: RefCell { value: [Node { value: 3, children: RefCell { value: [] } }] } }
+2025-10-22 17:03:10 INFO tests\my_refcell_test.rs:50 - Node { value: 5, children: RefCell { value: [Node { value: 3, children: RefCell { value: [] } }] } }

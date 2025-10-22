@@ -5,17 +5,119 @@
 #![allow(dead_code)]
 #![allow(unused_variables)]
 
-use std::ops::Deref;
+use std::{cell::{Ref, RefCell}, ops::Deref, rc::Rc};
 
 use guessing_game::init;
 use log::info;
 
+#[derive(Debug)]
 enum List {
-    Cons(i32, Box<List>),
+    Cons(Rc<RefCell<i32>>, Rc<List>),
     Nil,
 }
 
+
 use List::{Cons, Nil};
+
+#[test]
+fn it_ref_cell_test01() {
+    init();
+    let value = Rc::new(RefCell::new(5));
+    let a = Rc::new(Cons(Rc::clone(&value), Rc::new(Nil)));
+    let b = Cons(Rc::new(RefCell::new(6)), Rc::clone(&a));
+    let c = Cons(Rc::new(RefCell::new(10)), Rc::clone(&a));
+
+    *value.borrow_mut() += 10;
+
+    info!("a after = {:?}", a);
+    info!("b after = {:?}", b);
+    info!("c after = {:?}", c);
+
+}
+
+#[test]
+fn it_rc_clone_test01() {
+    init();
+    let a = Rc::new(Cons(Rc::new(RefCell::new(5)), Rc::new(Cons(Rc::new(RefCell::new(10)), Rc::new(Nil)))));
+    let b = Cons(Rc::new(RefCell::new(3)), Rc::clone(&a));
+    let c = Cons(Rc::new(RefCell::new(4)), Rc::clone(&a));
+    info!("{:?}", Rc::strong_count(&a));
+}
+
+pub trait Messenger {
+    fn send(&self, msg: &str);    
+}
+
+pub struct LimitTracker<'a, T: Messenger> {
+    messenger: &'a T,
+    value: usize,
+    max: usize,
+}
+
+
+impl<'a, T> LimitTracker<'a, T> 
+    where T: Messenger 
+{
+    pub fn new(messenger: &'a T, max: usize) -> LimitTracker<'a, T> {
+        LimitTracker { messenger: messenger, value: 0, max: max }
+    }
+
+    pub fn set_value(&mut self, value: usize) {
+        self.value = value;
+
+        let percentage_of_max = self.value as f64 / self.max as f64;
+
+        if percentage_of_max >= 1.0 {
+            self.messenger.send("Error: You are over your quota!");
+        } else if percentage_of_max >= 0.9 {
+            self.messenger.send("Urgent warning: You've used up over 90% of your quota!");
+        } else if percentage_of_max >= 0.75 {
+            self.messenger.send("Warning: You've used up over 75% of your quota!");
+        }
+    }
+}
+
+struct MockMessenger {
+    sent_messages: RefCell<Vec<String>>,
+}
+
+impl MockMessenger {
+    fn new() -> MockMessenger {
+        MockMessenger { sent_messages: RefCell::new(vec![]) }
+    }
+}
+
+impl Messenger for MockMessenger {
+    fn send(&self, message: &str) {
+        self.sent_messages.borrow_mut().push(String::from(message));
+    }
+}
+
+#[test]
+fn it_sends_an_over_75_percent_warning_message() {
+    init();
+    let mock_messenger = MockMessenger::new();
+    let mut limit_tracker = LimitTracker::new(&mock_messenger, 100);
+
+    limit_tracker.set_value(80);
+
+    info!("{}", mock_messenger.sent_messages.borrow().len());
+
+}
+
+#[test]
+fn it_rc_clone_test02() {
+    init();
+    let a = Rc::new(Cons(Rc::new(RefCell::new(4)), Rc::new(Cons(Rc::new(RefCell::new(10)), Rc::new(Nil)))));
+    info!("count after creating a = {}", Rc::strong_count(&a));
+    let b = Cons(Rc::new(RefCell::new(3)), Rc::clone(&a));
+    info!("count after creating b = {}", Rc::strong_count(&a));
+    {
+        let c = Cons(Rc::new(RefCell::new(4)), Rc::clone(&a));
+        info!("count after creating c = {}", Rc::strong_count(&a));
+    }
+    info!("count after c goes out of scope = {}", Rc::strong_count(&a));
+}
 
 #[test]
 fn it_box_test01() {
@@ -23,12 +125,22 @@ fn it_box_test01() {
     let b = Box::new(5);
     info!("b = {}", b);
 
-    let list = Cons(1,
-        Box::new(Cons(2,
-            Box::new(Cons(3,
-                Box::new(Nil))))));
+    // let list = Cons(1,
+    //     Box::new(Cons(2,
+    //         Box::new(Cons(3,
+    //             Box::new(Nil))))));
 
     
+}
+
+#[test]
+fn it_drop_test01() {
+    init();
+    let c = CustomSmartPointer { data: String::from("some data")} ;
+    info!("CustomSmartPointer created.");
+    drop(c);
+    info!("CustomSmartPointer droppped before the end of main.");
+
 }
 
 #[test]
