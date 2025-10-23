@@ -889,3 +889,5 @@
 2025-10-22 16:20:15 INFO tests\my_refcell_test.rs:50 - a rc count after changing a = 2
 2025-10-22 17:03:06 INFO tests\my_refcell_test.rs:50 - Node { value: 5, children: RefCell { value: [Node { value: 3, children: RefCell { value: [] } }] } }
 2025-10-22 17:03:10 INFO tests\my_refcell_test.rs:50 - Node { value: 5, children: RefCell { value: [Node { value: 3, children: RefCell { value: [] } }] } }
+2025-10-23 14:41:11 INFO tests\my_weak.rs:29 - leaf parent = None
+2025-10-23 14:41:11 INFO tests\my_weak.rs:39 - leaf parent = Some(Node { value: 5, parent: RefCell { value: (Weak) }, children: RefCell { value: [Node { value: 3, parent: RefCell { value: (Weak) }, children: RefCell { value: [] } }] } })
