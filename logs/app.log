@@ -889,6 +889,7 @@
 2025-10-22 16:20:15 INFO tests\my_refcell_test.rs:50 - a rc count after changing a = 2
 2025-10-22 17:03:06 INFO tests\my_refcell_test.rs:50 - Node { value: 5, children: RefCell { value: [Node { value: 3, children: RefCell { value: [] } }] } }
 2025-10-22 17:03:10 INFO tests\my_refcell_test.rs:50 - Node { value: 5, children: RefCell { value: [Node { value: 3, children: RefCell { value: [] } }] } }
+<<<<<<< HEAD
 2025-10-23 14:41:11 INFO tests\my_weak.rs:29 - leaf parent = None
 2025-10-23 14:41:11 INFO tests\my_weak.rs:39 - leaf parent = Some(Node { value: 5, parent: RefCell { value: (Weak) }, children: RefCell { value: [Node { value: 3, parent: RefCell { value: (Weak) }, children: RefCell { value: [] } }] } })
 2025-10-24 10:52:09 INFO tests\my_weak.rs:52 - leaf strong = 1, weak = 0
@@ -936,3 +937,7 @@
 2025-10-24 14:48:41 INFO tests\my_spwan.rs:26 - hi number 3 from the main thread!
 2025-10-24 14:48:41 INFO tests\my_spwan.rs:26 - hi number 4 from the main thread!
 2025-10-24 15:38:53 INFO tests\my_spwan.rs:37 - Here's a vector: [1, 2, 3]
+=======
+2025-10-22 20:48:46 INFO tests/my_refcell_test.rs:46 - leaf parent = None
+2025-10-22 20:48:46 INFO tests/my_refcell_test.rs:56 - leaf parent = Some(Node { value: 5, parent: RefCell { value: (Weak) }, children: RefCell { value: [Node { value: 3, parent: RefCell { value: (Weak) }, children: RefCell { value: [] } }] } })
+>>>>>>> 51efe04 (add)
