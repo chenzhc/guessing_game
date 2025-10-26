@@ -5,7 +5,7 @@
 #![allow(dead_code)]
 #![allow(unused_variables)]
 
-use std::{thread, time::Duration};
+use std::{sync::mpsc, thread, time::Duration};
 
 use guessing_game::init;
 use log::info;
@@ -40,4 +40,83 @@ fn it_spwan_test02() {
     //drop(v);
 
     handle.join().unwrap();
+}
+
+#[test]
+fn it_spwan_test03() {
+    init();
+
+    let (tx, rx) = mpsc::channel();
+
+    thread::spawn(move || {
+        let val = String::from("hi");
+        tx.send(val).unwrap();
+    });
+
+    let recived = rx.recv().unwrap();
+    info!("Got: {}", recived);
+
+}
+
+#[test]
+fn it_spwan_test04() {
+    init();
+    let (tx, rx) = mpsc::channel();
+
+    thread::spawn(move || {
+        let vals = vec![
+            String::from("hi"),
+            String::from("from"),
+            String::from("the"),
+            String::from("thread"),
+        ];
+
+        for val in vals {
+            tx.send(val).unwrap();
+            thread::sleep(Duration::from_secs(1));
+        }
+    });
+
+    for received in rx {
+        info!("Got: {}", received);
+    }
+}
+
+#[test]
+fn it_spwan_test05() {
+    init();
+    let (tx, rx) = mpsc::channel();
+
+    let tx1 = tx.clone();
+    thread::spawn(move || {
+        let vals = vec![
+            String::from("hi"),
+            String::from("from"),
+            String::from("the"),
+            String::from("thread"),
+        ];
+
+        for val in vals {
+            tx1.send(val).unwrap();
+            thread::sleep(Duration::from_secs(1));
+        }
+    });
+
+    thread::spawn(move || {
+        let vals  = vec![
+            String::from("more"),
+            String::from("messages"),
+            String::from("for"),
+            String::from("you"),
+        ];
+
+        for val in vals {
+            tx.send(val).unwrap();
+            thread::sleep(Duration::from_secs(1));
+        }
+    });
+
+    for received in rx {
+        info!("Got: {}", received);
+    }
 }

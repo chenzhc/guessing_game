@@ -941,3 +941,20 @@
 2025-10-22 20:48:46 INFO tests/my_refcell_test.rs:46 - leaf parent = None
 2025-10-22 20:48:46 INFO tests/my_refcell_test.rs:56 - leaf parent = Some(Node { value: 5, parent: RefCell { value: (Weak) }, children: RefCell { value: [Node { value: 3, parent: RefCell { value: (Weak) }, children: RefCell { value: [] } }] } })
 >>>>>>> 51efe04 (add)
+2025-10-26 10:51:46 INFO tests/my_spwan.rs:57 - Got: hi
+2025-10-26 19:32:19 INFO tests/my_spwan.rs:81 - Got: hi
+2025-10-26 19:32:20 INFO tests/my_spwan.rs:81 - Got: from
+2025-10-26 19:32:21 INFO tests/my_spwan.rs:81 - Got: the
+2025-10-26 19:32:22 INFO tests/my_spwan.rs:81 - Got: thread
+2025-10-26 19:37:42 INFO tests/my_spwan.rs:81 - Got: hi
+2025-10-26 19:37:43 INFO tests/my_spwan.rs:81 - Got: from
+2025-10-26 19:37:44 INFO tests/my_spwan.rs:81 - Got: the
+2025-10-26 19:37:45 INFO tests/my_spwan.rs:81 - Got: thread
+2025-10-26 19:41:39 INFO tests/my_spwan.rs:120 - Got: hi
+2025-10-26 19:41:39 INFO tests/my_spwan.rs:120 - Got: more
+2025-10-26 19:41:40 INFO tests/my_spwan.rs:120 - Got: from
+2025-10-26 19:41:40 INFO tests/my_spwan.rs:120 - Got: messages
+2025-10-26 19:41:41 INFO tests/my_spwan.rs:120 - Got: for
+2025-10-26 19:41:41 INFO tests/my_spwan.rs:120 - Got: the
+2025-10-26 19:41:42 INFO tests/my_spwan.rs:120 - Got: you
+2025-10-26 19:41:42 INFO tests/my_spwan.rs:120 - Got: thread
