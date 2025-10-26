@@ -5,7 +5,7 @@
 #![allow(dead_code)]
 #![allow(unused_variables)]
 
-use std::{sync::mpsc, thread, time::Duration};
+use std::{rc::Rc, sync::{mpsc, Arc, Mutex}, thread, time::Duration};
 
 use guessing_game::init;
 use log::info;
@@ -119,4 +119,38 @@ fn it_spwan_test05() {
     for received in rx {
         info!("Got: {}", received);
     }
+}
+
+#[test]
+fn it_mutex_test01() {
+    init();
+
+    let m = Mutex::new(5);
+    {
+        let mut num = m.lock().unwrap();
+        *num = 6;
+    }
+    info!("m = {:?}", m);
+}
+
+#[test]
+fn it_mutex_test02() {
+    init();
+    let counter = Arc::new(Mutex::new(0));
+    let mut handles = vec![];
+
+    for _ in 0..10 {
+        let counter = Arc::clone(&counter);
+        let handle = thread::spawn(move || {
+            let mut num = counter.lock().unwrap();
+            *num += 1;
+        });
+        handles.push(handle);
+    }
+
+    for handle in handles {
+        handle.join().unwrap();
+    }
+
+    info!("Result: {}", *counter.lock().unwrap());
 }

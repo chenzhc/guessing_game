@@ -958,3 +958,5 @@
 2025-10-26 19:41:41 INFO tests/my_spwan.rs:120 - Got: the
 2025-10-26 19:41:42 INFO tests/my_spwan.rs:120 - Got: you
 2025-10-26 19:41:42 INFO tests/my_spwan.rs:120 - Got: thread
+2025-10-26 19:54:19 INFO tests/my_spwan.rs:133 - m = Mutex { data: 6, poisoned: false, .. }
+2025-10-26 20:03:30 INFO tests/my_spwan.rs:155 - Result: 10
