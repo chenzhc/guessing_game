@@ -286,5 +286,58 @@ fn it_match_test02() {
         3 => info!("three"),
         _ => info!("anything"),
     }
-    
+
 }
+
+
+#[test]
+fn it_match_test03() {
+    init();
+    let x = Some(5);
+    let y = 10;
+
+    match x {
+        Some(50) => info!("Got 50"),
+        Some(y) => info!("matched, y = {:?}", y),
+        _ => info!("Default case, x = {:?}", x),
+    }
+
+    info!("at the end: x = {:?}, y = {:?}", x, y);
+}
+
+
+#[test]
+fn it_match_test04() {
+    init();
+    let x = 1;
+
+    match x {
+        1 | 2 => info!("one or two"),
+        3 => info!("three"),
+        _ => info!("anything"),
+    }
+}
+
+#[test]
+fn it_match_test05() {
+    init();
+    let x = 5;
+
+    match x {
+        1..=5 => info!("one through five"),
+        _ => info!("something else"),
+    }
+}
+
+#[test]
+fn it_match_test06() {
+    init();
+    let x = 'c';
+
+    match x {
+        'a'..='j' => info!("early ASCII letter"),
+        'k'..='z' => info!("late ASCII letter"),
+        _ => info!("something else"),
+    }
+}
+
