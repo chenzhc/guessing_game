@@ -100,5 +100,30 @@ fn it_add_point_test01() {
 
     let rs_p = p1 + p2;
     info!("{:?}", rs_p);
-    
+
+}
+
+#[derive(Debug)]
+struct Millimeters(u32);
+#[derive(Debug)]
+struct Meters(u32);
+
+impl Add<Meters> for Millimeters {
+    type Output = Millimeters;
+
+    fn add(self, other: Meters) -> Millimeters {
+        Millimeters(self.0 + (other.0 * 1000))
+    }
+}
+
+#[test]
+fn it_add_test01() {
+    init();
+
+    let m1 = Millimeters(20);
+    let m2 = Meters(10);
+
+    let rs = m1 + m2;
+    info!("{:?}", rs);
+
 }
