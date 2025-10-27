@@ -7,7 +7,7 @@
 
 use std::{rc::Rc, sync::{mpsc, Arc, Mutex}, thread, time::Duration};
 
-use guessing_game::{average::AveragedCollection, init};
+use guessing_game::{average::AveragedCollection, gui::{Button, Screen, SelectBox}, init};
 use log::info;
 
 #[test]
@@ -174,4 +174,41 @@ fn it_averaged_test01() {
     let av1 = a1.average();
     info!("{}", av1);
 
+}
+
+
+#[test]
+fn it_draw_test01() {
+    init();
+    let screen = Screen {
+        components: vec![
+            Box::new(SelectBox {
+                width: 75,
+                heigth: 10,
+                options: vec![
+                    String::from("yes"),
+                    String::from("Maybe"),
+                    String::from("No"),
+                ],
+            }),
+            Box::new(Button {
+                width: 50,
+                height: 10,
+                label: String::from("OK"),
+            }),
+        ],
+    };
+
+    screen.run();
+}
+
+#[test]
+fn it_draw_test02() {
+    init();
+    // let screen = Screen {
+    //     components: vec![
+    //         Box::new(String::from("Hi")),
+    //     ],
+    // };
+    // screen.run();
 }

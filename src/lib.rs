@@ -7,10 +7,12 @@
 use dotenv::dotenv;
 use log::info;
 
+pub mod average;
+pub mod gui;
+
 // init log config
 pub fn init() {
     dotenv().ok();
     log4rs::init_file("log4rs.yaml", Default::default()).unwrap();
 }
 
-pub mod average;
