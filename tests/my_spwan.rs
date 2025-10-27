@@ -5,7 +5,7 @@
 #![allow(dead_code)]
 #![allow(unused_variables)]
 
-use std::{rc::Rc, sync::{mpsc, Arc, Mutex}, thread, time::Duration};
+use std::{mem::take, rc::Rc, sync::{mpsc, Arc, Mutex}, thread, time::Duration};
 
 use guessing_game::{average::AveragedCollection, gui::{Button, Screen, SelectBox}, init};
 use log::info;
@@ -211,4 +211,80 @@ fn it_draw_test02() {
     //     ],
     // };
     // screen.run();
+}
+
+#[test]
+fn it_match_test01() {
+    init();
+    let favorite_color: Option<&str> = None;
+    let is_tuesday = false;
+    let age: Result<u8, _> = "34".parse();
+
+    if let Some(color) = favorite_color {
+        info!("Using your favorite color, {}, as the background", color);
+    } else if is_tuesday {
+        info!("Tuesday is green day!");
+    } else if let Ok(age) = age {
+        if age > 30 {
+            info!("Using purple as the background color");
+        } else {
+            info!("Using orange as the background color");
+        }
+    } else {
+        info!("Using blue as the background color");
+    }
+}
+
+#[test]
+fn it_while_let_test01() {
+    init();
+
+    let mut stack = Vec::new();
+    stack.push(1);
+    stack.push(2);
+    stack.push(3);
+
+    while let Some(top) = stack.pop() {
+        info!("{}", top);
+    }
+}
+
+#[test]
+fn it_for_test01() {
+    init();
+    let v = vec!['a','b','c'];
+    
+    for (index, value) in v.iter().enumerate() {
+        info!("{} is at index {}", value, index);
+    }
+}
+
+fn print_coordinates(&(x, y): &(i32, i32)) {
+    info!("current location: ({}, {})", x, y);
+}
+
+#[test]
+fn it_print_coordinates_test01() {
+    init();
+    let point = (3, 5);
+    print_coordinates(&point);
+
+    let some_option_value: Option<i32> = Some(3);
+    if let Some(x) = some_option_value {
+        info!("{}", x);
+    }
+
+}
+
+#[test]
+fn it_match_test02() {
+    init();
+    let x = 1;
+    match x {
+        1 => info!("one"),
+        2 => info!("two"),
+        3 => info!("three"),
+        _ => info!("anything"),
+    }
+    
 }
