@@ -6,7 +6,7 @@
 #![allow(unused_variables)]
 
 use std::{ops::Add, sync::atomic::AtomicU32};
-use guessing_game::init;
+use guessing_game::{init, vec};
 use log::info;
 
 #[test]
@@ -222,4 +222,13 @@ fn it_do_twice_test01() {
 
 fn returns_closure() -> Box<dyn Fn(i32) -> i32> {
     Box::new(|x| x + 1)
+}
+
+
+#[test]
+fn it_vec_test01() {
+    init();
+    let v1 = vec![1,2,3];
+    info!("{:?}", v1);
+    
 }
