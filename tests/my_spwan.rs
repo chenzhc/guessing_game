@@ -341,3 +341,207 @@ fn it_match_test06() {
     }
 }
 
+struct Point {
+    x: i32,
+    y: i32,
+}
+
+#[test]
+fn it_match_test07() {
+    init();
+    let p = Point { x: 0, y: 7 };
+
+    let Point { x: a, y: b} = p;
+    info!("{}", a);
+    info!("{}", b);
+
+}
+
+#[test]
+fn it_match_test08() {
+    init();
+
+    let p = Point { x: 0, y: 7 };
+    let Point { x, y } = p;
+    info!("x: {}, y: {}", x, y);
+}
+
+#[test]
+fn it_match_test09() {
+    init();
+    let p = Point { x: 0, y: 7 };
+
+    match p {
+        Point { x, y: 0 } => info!("One the x axis at {}", x),
+        Point { x: 0, y } => info!("One the y axis at {}", y),
+        Point { x, y} => info!("One neither axis: ({}, {})", x, y),
+    }
+}
+
+enum Message {
+    Quit,
+    Move { x: i32, y: i32},
+    Write(String),
+    ChangeColor(i32, i32, i32),
+}
+
+#[test]
+fn it_match_test10() {
+    init();
+
+    let msg = Message::ChangeColor(0, 160, 255);
+
+    match msg {
+        Message::Quit => {
+            info!("The Quit variant has no data to destructure.");
+        },
+        Message::Move { x, y } => {
+            info!(
+                "Move in the x direction {} and in the y direction {}",
+                x, y
+            );
+        },
+        Message::Write(text) => info!("Text message: {}", text),
+        Message::ChangeColor(r, g, b) => {
+            info!(
+                "Change the color to red {}, green {}, and blue {}",
+                r, g, b
+            );
+        }
+    }
+}
+
+fn foo(_: i32, y: i32) {
+    info!("This code only uses the y parameter: {}", y);
+}
+
+#[test]
+fn it_match_test11() {
+    init();
+    foo(3, 4);
+}
+
+
+#[test]
+fn it_match_test12() {
+    init();
+    let mut setting_value = None;
+    let new_setting_value = Some(10);
+
+    match (setting_value, new_setting_value) {
+        (Some(_), Some(_)) => {
+            info!("Can't overwrite an existing customized value");
+        },
+        _ => {
+            setting_value = new_setting_value;
+        }
+    }
+    info!("setting is {:?}", setting_value);
+
+}
+
+#[test]
+fn it_amtch_test13() {
+    init();
+
+    let numbers = (2, 4, 8, 16,32);
+    match numbers {
+        (first, _, thired, _, fifth) => {
+            info!("Some numbers: {}, {}, {}", first, thired, fifth);
+        },
+    }
+}
+
+#[test]
+fn it_match_test14() {
+    init();
+    let _x = 5;
+    let y = 10;
+    info!("{}, {}", _x, y);
+
+    let s = Some(String::from("hello"));
+    if let Some(_) = s {
+        info!("found a string");
+    }
+    info!("{:?}", s);
+
+}
+
+struct Point2 {
+    x: i32, 
+    y: i32,
+    z: i32,
+}
+
+#[test]
+fn it_match_test15() {
+    init();
+    let origin = Point2 {x: 10, y: 0, z: 0};
+    match origin {
+        Point2 { x, ..} => info!("x is {}", x),
+    }
+
+    let numbers = (2,4,8,16,32);
+
+    match numbers {
+        (first, .., last) => {
+            info!("Some numbers: {}, {}", first, last);
+        },
+    }
+
+    let num = Some(4);
+    match num {
+        Some(x) if x < 5 => info!("less than five: {}", x),
+        Some(x) => info!("{}", x),
+        None => (),
+    }
+}
+
+#[test]
+fn it_match_test16() {
+    init();
+
+    let x = Some(5);
+    let y = 10;
+
+    match x {
+        Some(50) => info!("Got 50"),
+        Some(n) if n == y => info!("Matched, n = {}", n),
+        _ => info!("Default case, x = {:?}", x),
+    }
+    info!("at the end: x = {:?}, y = {}", x, y);
+}
+
+#[test]
+fn it_match_test17() {
+    init();
+    let x = 4;
+    let y = false;
+
+    match x {
+        4 | 5 | 6 if y => info!("yes"),
+        _ => info!("no"),
+    }
+}
+
+enum Message2 {
+    Hello { id: i32 },
+}
+
+#[test]
+fn it_match_test18() {
+    init();
+    let msg = Message2::Hello { id: 5 };
+
+    match msg {
+        Message2::Hello { id: id_variable @ 3..=7 } => {
+            info!("Found an id in range: {}", id_variable);
+        },
+        Message2::Hello { id: 10..=12 } => {
+            info!("Found an id in another range");
+        }, 
+        Message2::Hello { id } => {
+            info!("Found some other id: {}", id);
+        }
+    }
+}
