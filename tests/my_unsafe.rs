@@ -127,3 +127,99 @@ fn it_add_test01() {
     info!("{:?}", rs);
 
 }
+
+trait Pilot {
+    fn fly(&self);
+}
+
+trait Wizard {
+    fn fly(&self);
+}
+
+struct Human;
+
+impl Pilot for Human {
+    fn fly(&self) {
+        info!("This is your captain speaking.");
+    }
+}
+
+impl Wizard for Human {
+    fn fly(&self) {
+        info!("Up!");
+    }
+}
+
+impl Human {
+    fn fly(&self) {
+        info!("*waving arms furiously*");
+    }
+}
+
+#[test]
+fn it_human_fly_test01() {
+    init();
+    let person = Human;
+    Pilot::fly(&person);
+    Wizard::fly(&person);
+    Human::fly(&person);
+    person.fly();
+
+}
+
+trait Animal {
+    fn baby_name() -> String;
+}
+
+struct Dog;
+
+impl Dog {
+    fn baby_name() -> String {
+        String::from("Spot")
+    }
+}
+
+impl Animal for Dog {
+    fn baby_name() -> String {
+        String::from("puppy")
+    }
+}
+
+
+#[test]
+fn it_animal_test01() {
+    init();
+    info!("A baby dog is called a {}", Dog::baby_name());
+    info!("A baby dog is called a {}", <Dog as Animal>::baby_name());
+}
+
+type Kilometers = i32;
+
+#[test]
+fn it_type_test01() {
+    init();
+    let x: i32 = 5;
+    let y: Kilometers = 5;
+
+    info!("x + y = {}", x + y);
+}
+
+fn add_one(x: i32) -> i32 {
+    x + 1
+}
+
+fn do_twice(f: fn(i32) -> i32, arg: i32) -> i32 {
+    f(arg) + f(arg)
+}
+
+#[test]
+fn it_do_twice_test01() {
+    init();
+    let answer = do_twice(add_one, 5);
+    info!("The answer is: {}", answer);
+
+}
+
+fn returns_closure() -> Box<dyn Fn(i32) -> i32> {
+    Box::new(|x| x + 1)
+}
