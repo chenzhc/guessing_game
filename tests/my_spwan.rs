@@ -7,7 +7,7 @@
 
 use std::{rc::Rc, sync::{mpsc, Arc, Mutex}, thread, time::Duration};
 
-use guessing_game::init;
+use guessing_game::{average::AveragedCollection, init};
 use log::info;
 
 #[test]
@@ -153,4 +153,25 @@ fn it_mutex_test02() {
     }
 
     info!("Result: {}", *counter.lock().unwrap());
+}
+
+
+#[test]
+fn it_averaged_test01() {
+    init();
+    let mut a1 = AveragedCollection::new();
+
+    a1.add(10);
+    let av1 = a1.average();
+    info!("{}", av1);
+    a1.add(20);
+    a1.add(30);
+    let av1 = a1.average();
+    info!("{}", av1);
+
+    let v1 = a1.remove();
+    info!("{:?}", v1);
+    let av1 = a1.average();
+    info!("{}", av1);
+
 }
