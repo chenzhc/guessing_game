@@ -6,7 +6,8 @@
 #![allow(unused_variables)]
 
 use std::{ops::Add, sync::atomic::AtomicU32};
-use guessing_game::{init, vec};
+use guessing_game::{init, myvec};
+use hello_macro::HelloMacro;
 use log::info;
 
 #[test]
@@ -228,7 +229,22 @@ fn returns_closure() -> Box<dyn Fn(i32) -> i32> {
 #[test]
 fn it_vec_test01() {
     init();
-    let v1 = vec![1,2,3];
+    let v1 = myvec![1,2,3];
     info!("{:?}", v1);
+    
+}
+
+struct Pancakes;
+
+impl HelloMacro for Pancakes {
+    fn hello_macro() {
+        info!("Hello, Macro! My name is Pancackes!");
+    }
+}
+
+#[test]
+fn it_pancakes_test01() {
+    init();
+    Pancakes::hello_macro();
     
 }

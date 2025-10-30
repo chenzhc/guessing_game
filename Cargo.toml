@@ -11,4 +11,4 @@ tokio = { version = "1.47.1", features = ["full","rt", "net", "macros","tokio-ma
 log = "0.4"
 log4rs = { version = "1.4.0", features = ["console_appender", "rolling_file_appender", "size_trigger", "time_trigger", "pattern_encoder", "gzip"] }
 rand = "0.9.2"
-
+hello_macro = { path = "hello_macro"}

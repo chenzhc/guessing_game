@@ -9,7 +9,7 @@ use log::info;
 
 
 #[macro_export]
-macro_rules! vec {
+macro_rules! myvec {
     ( $( $x:expr ),* ) => {
         {
             let mut temp_vec = Vec::new();
